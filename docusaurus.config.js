@@ -125,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CRIATIVIDADE.digital, Editora eTrix.`,
       },
       prism: {
         theme: prismThemes.github,

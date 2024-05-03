@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Mermaid from '@site/src/components/mermaid';
+import curso from "@site/src/components/mermaid-diagram";
 
 const FeatureList = [
   {
@@ -35,28 +37,19 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        {/* Adicionando o novo recurso "Alo mundo" diretamente */}
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          <div>
+            <p>Esta é a estrutura do curso.</p>
+            <center>
+            <Mermaid chart={curso} />
+            </center>
+          </div>
         </div>
       </div>
     </section>
