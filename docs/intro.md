@@ -11,10 +11,4 @@ Bem-vindo ao curso **Inteligência Artificial para CEOs**. Nosso objetivo é des
 <ReactPlayer url='https://youtu.be/qVZZFQ-brA4' controls='true' />
 </center>
 <br />
-A incorporação da Inteligência Artificial em sua organização não é apenas um avanço tecnológico; é uma jornada de transformação digital que impactará profundamente diversos aspectos do seu negócio. No entanto, é fundamental estar ciente: as estatísticas sobre isso não são animadoras. Estudos revelam que 70% das iniciativas de transformação digital falham em alcançar seus objetivos. Esteja pronto para descobrir as valiosas dicas que serão compartilhadas no próximo capítulo. 
-
-<i class="fas fa-graduation-cap"></i>ww
-<i className="fa fa-twitter"></i>
-
-<FAIcon icon="fas fa-graduation-cap" size="4x" /> This is a GitHub icon.<br />
-<FAIcon icon="fa-brands fa-github" size="4x" /> This is a GitHub icon.
+A incorporação da Inteligência Artificial em sua organização não é apenas um avanço tecnológico; é uma jornada de transformação digital que impactará profundamente diversos aspectos do seu negócio. No entanto, é fundamental estar ciente: as estatísticas sobre isso não são animadoras. Estudos revelam que 70% das iniciativas de transformação digital falham em alcançar seus objetivos. Esteja pronto para descobrir as valiosas dicas que serão compartilhadas no próximo capítulo.

@@ -36,6 +36,11 @@ const FeatureList = [
     ),
   },
 ];
+const divStyle = {
+  width: '100%',
+  display: 'inline-block',
+  textAlign: 'center'
+};
 
 
 export default function HomepageFeatures() {
@@ -44,13 +49,20 @@ export default function HomepageFeatures() {
       <div className="container">
         {/* Adicionando o novo recurso "Alo mundo" diretamente */}
         <div className="row">
-          <div>
-            <p>Esta é a estrutura do curso.</p>
-            <center>
-            <Mermaid chart={curso} />
-            </center>
-          </div>
+            <p>Seja bem-vindo ao curso <b>Inteligência Artificial para CEOs</b>. 
+            Nosso objetivo é desmistificar essa tecnologia e mostrar, de forma objetiva, acessível e abrangente, 
+            como ela pode se tornar uma peça fundamental na estratégia da sua instituiçãp.</p>
+            <p>Explore todo o conteúdo do curso, <b><a href="docs/intro">navegando de forma sequencial</a></b> ou utilizando a estrutura apresentada abaixo.
+            </p>
         </div>
+        <center>
+        <div className="row" style={divStyle}>
+            <br />
+            
+            <Mermaid chart={curso} />
+            
+        </div>
+        </center>
       </div>
     </section>
   );
