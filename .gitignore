@@ -3,6 +3,7 @@
 
 # Production
 /build
+.code-workspace
 
 # Generated files
 .docusaurus
