@@ -42,14 +42,18 @@ const divStyle = {
   textAlign: 'center'
 };
 
+const paragrafo = {
+  marginLeft: '20px', /* Define a margem esquerda como 20 pixels */
+  marginRight:'20px' /* Define a margem direita como 20 pixels */
+}
 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
+      <div className="container" style={paragrafo}>
         {/* Adicionando o novo recurso "Alo mundo" diretamente */}
         <div className="row">
-            <p>Seja bem-vindo ao curso <b>Inteligência Artificial para CEOs</b>. 
+            <p>Seja bem-vindo ao PowerBook do curso <b>Inteligência Artificial para CEOs</b>. 
             Nosso objetivo é desmistificar essa tecnologia e mostrar, de forma objetiva, acessível e abrangente, 
             como ela pode se tornar uma peça fundamental na estratégia da sua instituiçãp.</p>
             <p>Explore todo o conteúdo do curso, <b><a href="docs/intro">navegando de forma sequencial</a></b> ou utilizando a estrutura apresentada abaixo.

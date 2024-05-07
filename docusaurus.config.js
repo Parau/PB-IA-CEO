@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'IA para CEOs',
-  tagline: 'Powerbook do curso IA para CEOs',
+  tagline: 'Guiando sua organização em tempos de IA',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Casos de Uso
+# Exemplos
 A Inteligência Artificial está transformando diversos setores da sociedade. Neste capítulo, vamos explorar alguns exemplos concretos de como a IA está sendo aplicada para aprimorar processos e experiências.
 
 ## Rascunho do roteiro do vídeo
@@ -35,9 +35,30 @@ Aprimorar a experiência do cliente
 O Itaú atende mais de 13 milhões de contatos por mês através de seus canais de conversa com o uso de IA. Isso inclui atendimentos pelo aplicativo e pelo WhatsApp. Esses canais oferecem suporte em diversas questões, como consultas de saldo, ajuste de limites, simulação de empréstimos, segunda via de fatura, desbloqueio de cartão, renegociação de dívidas, pagamentos e transferências. De acordo com a equipe de tecnologia do Itaú, 80% dos atendimentos são resolvidos pelo chat automatizado, e apenas 20% são direcionados para atendimento humano. Isso indica que a maioria das demandas dos clientes pode ser atendida de forma autônoma pelo assistente virtual.
 
 >Anna
+
 Buscar insights baseados em dados
 
 A Cobasi, varejista especializada no segmento pet, utiliza a Inteligência Artificial (IA) para auxiliar na precificação dinâmica de seus produtos no e-commerce. A solução de precificação adotada pela empresa monitora constantemente os preços praticados pelos concorrentes. Mais de 4 mil itens são monitorados mensalmente, totalizando a análise de 770 mil preços por mês. O sistema identifica mudanças nas tendências de compra, gerando insights para otimização das estratégias de vendas durante períodos de alta ou baixa demanda. Além de contribuir para a eficiência na precificação, o sistema utiliza os dados coletados para fornecer valiosas informações sobre o estoque dos concorrentes.
 
+>Parau
+
+De acordo com uma pesquisa da McKinsey, a automação dos centros de atendimento e suporte é o caso de uso mais frequente da IA nas organizações (26%), seguida pela personalização (23%), que envolve a prática de adaptar produtos, serviços, conteúdo, recomendações e marketing, e em terceiro lugar, a aquisição de clientes (22%).
+
+>Anna
+
+Essa liderança de casos de uso de IA relacionada aos centros de atendimento também foi destacada por uma pesquisa encomendada pela Microsoft e realizada com micro, pequenas e médias empresas brasileiras. Neste estudo, 69% dos participantes indicaram que usam IA na forma de assistentes virtuais para atendimento ao cliente. 
+
+>Parau
+
+Desde o lançamento do ChatGPT, tem sido observado um crescente interesse no uso de tecnologias de IA generativa. Essa tecnologia é capaz de criar saídas inéditas que parecem ter sido geradas por humanos, como textos coerentes e imagens hiper-realistas. A McKinsey apresenta em sua pesquisa as áreas que mais utilizam IA generativa e em quais atividades ela é empregada. Por exemplo, em marketing e vendas, o maior uso está relacionado à elaboração dos primeiros rascunhos de documentos de texto. Na área de produtos ou desenvolvimento de serviços, destaca-se o uso da IA para identificação de tendências nas necessidades dos clientes. Em terceiro lugar, nas operações de serviço, aparece o uso de assistentes virtuais para atendimento ao cliente.
+
+>> Enquanto fala desenha retângulo na área e desenha linha apontando para a tarefa desenvolvida usando IA.
+
+>Anna
+
+Junto ao material que acompanha este vídeo, você terá acesso a um texto com mais exemplos inspiradores. Nele, mostramos como as organizações estão transformando seus produtos e aumentando a produtividade dos colaboradores com a IA generativa. Este conteúdo é um convite para explorar as infinitas possibilidades oferecidas pela IA.
+
+Portanto, mergulhe nesses exemplos antes de avançar para o próximo capítulo, no qual vamos abrir a “caixa preta” da IA e mostrar como ela funciona para gerar insights, fazer previsões, criar textos e imagens.
 
 ## Chamada próximo capítulo
+Na próxima seção, você terá acesso a um texto que complementa os exemplos de uso da IA apresentados no vídeo. Nele, mostramos como as organizações estão transformando seus produtos e aumentando a produtividade dos colaboradores com a IA generativa.
