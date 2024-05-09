@@ -22,6 +22,8 @@ Para minimizar esse problema, foi desenvolvido um sistema baseado em IA. Esse si
 
 Outro exemplo do mesmo HC é o desenvolvimento de uma ferramenta baseada em IA generativa voltada para auxiliar na geração de laudos radiológicos. Essa ferramenta busca as informações do paciente na base de dados do hospital e, quando o paciente chega, já se tem um resumo das informações relevantes para o médico em relação ao motivo do exame. Com essa aplicação, espera-se uma redução significativa do tempo gasto pelo radiologista no acesso às informações necessárias para analisar as imagens, trazendo mais eficiência ao processo de entrega do diagnóstico.
 
+Embora o exemplo do HC possa não estar diretamente relacionados à sua área de atuação, ele oferece uma visão de como as instituições estão adotando a IA. Essas adoções geralmente têm três objetivos principais: melhorar a eficiência e produtividade, aprimorar a experiência do cliente e buscar insights baseados em dados.
+
 >Anna
 
 Melhorar Eficiência e Produtividade:
