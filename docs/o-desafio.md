@@ -13,10 +13,11 @@ A pesquisa da PwC apresentada no primeiro capítulo demostrou que quase a metade
 
 >>Aponta no gráfico abaixo cada um dos itens narrados acima
 
-Essa pressão tem levado os executivos a priorizarem ações voltadas à transformação digital, com ênfase na reinvenção do modelo de negócios a partir da incorporação de tecnologia em áreas-chave. 
+Essa pressão tem levado os executivos a acelerarem a incorporação de tecnologias emergentes, como a IA, para otimizar seus processos operacionais ou até mesmo reinventar o modelo de negócios.
 
-Se este é o seu caso tenho três dicas importantes.
-A primeira... A decisão de incorporar a inteligência artificial (IA) à sua organização não apenas representa um avanço tecnológico. A IA tem o potencial de causar impactos significativos em diversos aspectos do seu negócio, desde a forma como você interage com os clientes até a eficiência operacional, o que, queira você ou não, desencadeia um processo de transformação digital.
+Se este é o seu caso, tenho três dicas importantes. 
+
+Primeiro... A decisão de incorporar a IA à sua organização não apenas representa um avanço tecnológico. A IA tem o potencial de causar impactos significativos em diversos aspectos do seu negócio, desde a forma como você interage com os clientes até a eficiência operacional. Dependendo da maturidade tecnológica atual da sua organização, pode ser necessário implementar a IA como parte de uma iniciativa abrangente de transformação digital.
 
 Então... Atenção! Os números não são promissores nesta área. Pesquisas já chegaram a apontar que 70% das iniciativas de transformação digital não atingem seus objetivos (mostra gráfico bcg que mostra os graus de não atendimento). 
 Transformação digital é um processo complexo e desafiador que requer mudanças culturais, organizacionais e estratégicas. Não existe uma fórmula única para o sucesso nesse processo.
@@ -38,8 +39,8 @@ Essa análise e planejamento integrados são cruciais para alinhar a incorporaç
 Como líder, é essencial compreender o verdadeiro impacto que o processo de adoção da IA terá em sua organização, e implementá-la de forma estratégica, sem se deixar levar pela empolgação tecnológica do momento ou pelo medo de ficar para trás.
 O Parau apresentou três dicas:
 
-1) Incorporação da IA e Transformação Digital: Ao decidir incorporar a inteligência artificial (IA) à sua organização, esteja ciente de que isso desencadeará um processo de transformação digital, com impactos significativos em diversos aspectos do seu negócio.
-2) Conheça os Frameworks de Transformação Digital: Esteja atento aos desafios da transformação digital, em que as tachas de sucesso total não são altas. Transformação digital requer mudanças culturais, organizacionais e estratégicas profundas, sem uma fórmula única para o sucesso. Conhecer e utilizar frameworks que orientam esse processo é fundamental.
+1) Incorporação da IA e Transformação Digital: Ao decidir incorporar a IA à sua organização, é fundamental compreender que os maiores benefícios só serão alcançados se essa implementação for tratada como parte de uma iniciativa abrangente de transformação digital. Isso implica em impactos significativos em diversos aspectos do seu negócio.
+2) Conheça os Frameworks de Transformação Digital: As taxas de sucesso nos projetos de transformação digital não são altas. Esteja atento e preparado para os desafios. Esse processo requer mudanças na cultura organizacional, nos processos operacionais e nas estratégias de mercado. Não existe uma fórmula única para o sucesso. Por isso, é fundamental conhecer e utilizar frameworks que orientem esse processo.
 3) Modelo de negócio, operacional e tecnológico: Ao repensar o modelo de negócio para incorporar a IA, é fundamental considerar também as mudanças necessárias nos modelos operacional e tecnológico da organização. A incompatibilidade em um desses modelos pode comprometer toda a iniciativa.
 
 >Parau
