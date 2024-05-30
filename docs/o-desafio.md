@@ -26,7 +26,7 @@ Não a toa existem várias propostas de framework para orientar o processo de tr
 
 Então, vamos a segunda dica! Se você ainda não tem experiência em processos de transformação digital, sugiro que você dedique um tempo para conhecer pelo menos um destes frameworks. 
 
-Por fim, vamos à terceira dica. Para aproveitar ao máximo os benefícios da inteligência artificial (IA), é importante considerar três perspectivas: o modelo de negócio, o modelo operacional e o modelo tecnológico da sua organização. Esses três aspectos devem estar alinhados e integrados para que a iniciativa tenha sucesso.
+Por fim, vamos à terceira dica. Para aproveitar ao máximo os benefícios da IA, é importante considerar três perspectivas: o modelo de negócio, o modelo operacional e o modelo tecnológico da sua organização. Esses três aspectos devem estar alinhados e integrados para que a iniciativa tenha sucesso.
 
 Um diagrama pode ajudar a visualizar essa interdependência. 
 
@@ -45,22 +45,24 @@ O Parau apresentou três dicas:
 
 >Parau
 
-Com toda a empolgação e relatos de sucesso envolvendo IA, pode ser difícil controlar a ansiedade e acabar se lançando na implementação da IA na organização sem estar preparado para isso. Mas as perguntas chaves são: 
-1) Qual o objetivo específico que a IA deve alcançar na organização? 
-2) Qual é o potencial retorno sobre o investimento da implementação da IA? Isso é viável financeiramente para a empresa?
-3) Tenho o know-how e infraestrutura tecnológica para tal mudança? E a operação já foi redesenhada?
-4) Como a implementação da IA afetará os processos de negócios existentes?
-5) Já considerei os aspectos éticos e legais da implementação da IA?
-6) Os riscos associados a sua implementação já foram mapeados?
-7) Existe um plano de comunicação e treinamento para envolver todos os colaboradores nesse processo?
+Com toda a empolgação e relatos de sucesso envolvendo IA, pode ser difícil controlar a ansiedade e acabar se lançando na implementação dessa tecnologia imediatamente. No entanto, a chave para uma implementação bem-sucedida está em fazer as perguntas certas antes de iniciar essa jornada. 
+1) Quais são os objetivos específicos que a IA deve alcançar na organização? 
+2) Já considerou o potencial retorno sobre o investimento e a viabilidade financeira?
+3) Avaliou se possui o know-how e a infraestrutura tecnológica necessária?
+4) E quanto aos impactos nos processos de negócios existentes?
+5) Os aspectos éticos e legais foram analisados?
+6) Os riscos foram mapeados?
+7) E, finalmente, existe um plano de comunicação e treinamento para envolver todos os colaboradores?
+
+Refletir sobre essas questões pode fazer toda a diferença no sucesso da sua estratégia de IA.
 
 >Ana
 
-Antes de se lançar de vez na adoção da IA em sua organização, respire fundo e controle a ansiedade. No próximo capítulo, vamos explorar casos inspiradores de uso da IA, que certamente vão te inspirar e te preparar para essa jornada.
+Antes de se lançar de vez na adoção da IA em sua organização, respire fundo e controle a ansiedade. No próximo capítulo, vamos explorar casos de uso da IA, que certamente irão te inspirar e te preparar para essa jornada.
 
 ## Chamada próximo capítulo
-Recentemente, o mundo tem testemunhado um crescente interesse no potencial transformador das tecnologias de Inteligência Artificial Generativa. Essa forma avançada de IA tem a capacidade única de criar conteúdos inéditos que se assemelham à qualidade e complexidade do trabalho humano, seja na forma de textos, imagens, códigos, áudios ou vídeos. Imagine poder gerar textos altamente acessíveis e relevantes para seus clientes, criar imagens realistas para simular produtos em ambientes domésticos, ou até mesmo desenvolver código em diversas linguagens de programação de forma autônoma. 
+No próximo capítulo, vamos explorar casos inspiradores de uso da IA. Esses exemplos práticos vão revelar como algumas empresas estão transformando seus negócios com a IA, oferecendo *insights* valiosos que você pode aplicar na sua própria estratégia. Prepare-se para uma imersão no mundo da IA, repleta de ideias e soluções concretas que podem revolucionar a sua organização. Não perca essa oportunidade de aprender e se inspirar com os melhores!
 
-Nos próximos capítulos, vamos desvendar os segredos por trás dessas capacidades revolucionárias da IA e explorar casos de uso ainda mais surpreendentes. Prepare-se para descobrir como a IA está transformando a eficiência, produtividade e experiência do cliente em diversos setores. 
+Nos próximos capítulos, vamos desvendar os segredos por trás dessas capacidades revolucionárias da IA e explorar casos de uso surpreendentes. Prepare-se para descobrir como a IA está transformando a eficiência, produtividade e experiência do cliente em diversos setores. 
 
 Não perca esta oportunidade de entender como a IA está moldando o mundo ao nosso redor e como você pode aproveitar ao máximo essa tecnologia inovadora.
