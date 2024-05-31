@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Exemplos
-A Inteligência Artificial está transformando diversos setores da sociedade. Neste capítulo, vamos explorar alguns exemplos concretos de como a IA está sendo aplicada para aprimorar processos e experiências.
+Imagine poder acelerar diagnósticos médicos, otimizar operações ou personalizar a experiência do cliente de maneira nunca antes vista? Este é o poder da IA. Prepare-se para descobrir exemplos que ilustram o potencial incrível dessa tecnologia.
 
 ## Rascunho do roteiro do vídeo
 >Parau

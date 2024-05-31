@@ -13,4 +13,4 @@ Se você ainda não viu este meme, vou deixar um toque de suspense antes de reve
 ![Vamos desmascarar?](antes-desmascarando.jpg)
 <center>*Imagem gerada com o Imgflip – Meme generator – Scooby doo mask reveal.*</center>
 
-Portanto, convido você a embarcar nesta jornada de desmascarar a IA e descobrir como ela pode transformar sua organização. Avalie suas estratégias atuais e considere integrar a IA de forma mais consciente e eficaz. A tecnologia está aqui para ser explorada; cabe a nós desvendá-la e aproveitá-la ao máximo.
+Portanto, convido você a embarcar nesta jornada para desmistificar a IA e descobrir como ela pode transformar sua organização. Reavalie suas estratégias atuais e considere integrar a IA de forma mais consciente e eficaz. A tecnologia está aqui para ser explorada; cabe a nós desvendá-la e aproveitá-la ao máximo.
