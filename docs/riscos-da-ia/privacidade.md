@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 import ReactPlayer from 'react-player'
 
-# Como funciona
+# Privacidade
 Certamente você já teve contato com sistemas de IA que utilizam aprendizado de máquina. Esses sistemas estão por trás de diversas tecnologias do nosso dia a dia, como detectar e-mails de spam, reconhecimento facial, traçar rotas no mapa, sugerir produtos durante compras online, reconhecer e responder à nossa voz, e até mesmo traduzir textos entre várias línguas. O ChatGPT é um excelente exemplo de IA baseada em aprendizado de máquina, impressionando pela sua capacidade de gerar textos e responder perguntas de forma tão natural que você mal percebe que está interagindo com um programa de computador. Essa ferramenta é realmente surpreendente e proporciona uma experiência única de interação.
 
 # Roteiro vídeo
@@ -58,8 +58,13 @@ EU NÃO TENHO O EMAIL DO PROFESSOR.
 O processo de geração de textos do ChatGPT funciona de uma forma muito mais elaborada do que a que demonstrei. Contudo, por mais complexa que seja essa geração, a essência permanece a mesma. O ChatGPT não "sabe" sobre o que está escrevendo, mas utiliza o contexto da conversa e a probabilidade das palavras para gerar seus textos.
 
 # Chamada próximo capítulo
-Você viu no vídeo como a estatística pode ser usada para gerar textos convincentes, mas que essa mesma estatística representa sua principal vulnerabilidade. E as consequencias para quem adota a IA e não conhecem estas vulnerabilidades podem ser devastadoras. Modelos de linguagem podem halucinar e ferramentas de IA podem estar carregadas de viés.
+Você viu no vídeo como a estatística pode ser usada para gerar textos convincentes, mas que essa mesma estatística representa sua principal vulnerabilidade. E as consequencias para quem adota a IA e não conhcem estas vulnerabilidades podem ser devastadoras. Modelos de linguagem podem halucinar e ferramentas de IA podem estar carregadas de viés.
 
-É sobre isso que vou falar no próximo capítulo.
+É sobre isso que vou falar no próximo capítulo. 
+
+É por isso que, não é incomum, que o ChatGPT gere textos bastante convincentes, mas que não são verdadeiros. Isso já tem até um nome: HALUCINAÇÃO. Isso ocorre quando a ferramenta de IA gera informações incorretas ou inventadas. Isso acontece porque o modelo tenta prever a próxima palavra ou frase com base nos padrões que aprendeu, mas às vezes cria respostas que parecem plausíveis, mas não são verdadeiras.
+
+GRAVAÇÃO PRAÇA ATLETICO. 
+--> estou aqui para experimentar o ChatGPT 4o lançado recentemente. Vou fazer isso usando esta estátua que foi inaugurada no dia 10 de maio de 24 ou seja, três dias antes do lançamento do ChatGPT-4o.
  
 
