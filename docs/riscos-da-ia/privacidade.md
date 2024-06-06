@@ -1,70 +1,54 @@
 ---
 sidebar_position: 3
 ---
-import ReactPlayer from 'react-player'
-
 # Privacidade
-Certamente você já teve contato com sistemas de IA que utilizam aprendizado de máquina. Esses sistemas estão por trás de diversas tecnologias do nosso dia a dia, como detectar e-mails de spam, reconhecimento facial, traçar rotas no mapa, sugerir produtos durante compras online, reconhecer e responder à nossa voz, e até mesmo traduzir textos entre várias línguas. O ChatGPT é um excelente exemplo de IA baseada em aprendizado de máquina, impressionando pela sua capacidade de gerar textos e responder perguntas de forma tão natural que você mal percebe que está interagindo com um programa de computador. Essa ferramenta é realmente surpreendente e proporciona uma experiência única de interação.
+No cenário atual, a conformidade com a Lei Geral de Proteção de Dados (LGPD) é uma necessidade inegociável para qualquer organização que busca operar de maneira ética e segura. No entanto, a adoção da IA adiciona uma camada extra de complexidade a essa preocupação.
 
-# Roteiro vídeo
->Parau:
-Oi. Tudo bem?
+A o que você deve estar atento?
 
-ChatGPT:
-Resposta...
+## Uso de ferramentas prontas
+Ao implantar ferramentas prontas de IA em sua organização é importante entender que essas plataformas frequentemente armazenam informações dos usuários para fins de auditoria e melhoria contínua dos modelos de IA. Isso pode levantar preocupações sobre como os dados são usados e protegidos pela empresa que fornece a ferramenta de IA. Portanto é importante analisar a se a ferramenta de IA que se pretende adotar na organização  esteja em conformidade com as regras de privacidade da sua instituição ou regulamentações a LGPD.
 
->Parau:
-Tudo bem por aqui. Posso chamá-la de ChatGPT?
+Mas não é somente o aspecto da proteção dos dados que é relevante no caso de uso de ferramentas prontas de IA é necessário também os riscos de utilizar na ferramenta de IA dados sigilosos da organização. Temos o exemplo da Samsung que baniu temporariamente o uso do ChatGPT por seus funcionários em dispositivos de trabalho e redes internas. A empresa citou preocupações com a privacidade e a segurança como razões para a proibição. O que aconteceu é que a a equipe de TI identificou que funcionários da Samsung usaram o ChatGPT para revisar código-fonte, otimizar software e redigir atas de reuniões. Nesses processos, dados confidenciais da empresa foram expostos ao ChatGPT.
 
->ChatGPT
-Resposta...
+Aproveitando o exemplo do ChatGPT, mas o cenário é válido para a maioria das ferramentas de IA generativa, os textos que você envia ao ChatGPT podem ser utilizados para o treinamento do modelo. Hoje o ChatGPT possui uma série formas de uso e opções de privacidade que você pode utilizar para controlar as informações que você compartilha com ele durante o seu uso.
 
->Parau:
-O ChatGPT é um exemplo de ferramenta que utiliza IA baseada em aprendizado de máquina.
+## Treinando os seus próprios modelos de IA
+Para empresas que que treinam ou personalizam seus próprios modelos de IA a questão da privacidade a preocupação envolve o armazenamento e processamento dos dados usados para treinamento. É essencial implementar medidas rigorosas para proteger esses dados contra acessos não autorizados e vazamentos. Além disso, vale a pena considerar a adoção de técnicas como anonimização e pseudonimização de dados. Isso pode reduzir significativamente os riscos associados ao processamento de informações sensíveis. Essas técnicas ajudam a proteger a identidade dos indivíduos, tornando mais difícil a reidentificação dos dados pessoais em caso de vazamento ou acesso não autorizado.
 
->Parau:
-ChatGPT, gostaria de entender, de forma simples e direta, como você funciona.
+## Controle de acesso
+Especialmente quando estiver treinando modelos de linguagem usando dados da empresa, esteja atento aos níveis de confidencialidade destes dados. Treinar um modelo de linguagem em um grande conjunto de dados de documentos e relatórios da empresa pode ser útil para diversas tarefas, como gerar resumos de documentos, responder a perguntas ou até mesmo criar novos conteúdos. No entanto, é importante ter em mente que, se o modelo for treinado em um conjunto de dados que não leva em consideração os diferentes níveis de acesso dos usuários dentro da organização, ele poderá gerar informações confidenciais que não deveriam ser acessíveis a todos.
 
->ChatGPT
-Resposta...
 
->Parau:
-Essa ferramenta impressiona pela capacidade de gerar textos e responder perguntas de forma natural, a ponto de esquecermos que, no fundo, o que está por trás disso são modelos estatísticos.
 
->Parau:
-ChatGPT, posso dizer que a essência do seu funcionamento é a estatística?
 
->ChatGPT
-Resposta...
 
->Parau:
-No entanto, a mesma base estatística que permite a criação de respostas tão convincentes também representa sua principal vulnerabilidade. Compreender esse conceito é fundamental para que você possa adotar a IA de forma apropriada, garantindo resultados consistentes e evitando armadilhas.
 
-Vamos começar desvendando como a estatística consegue gerar textos convincentes. Para ilustrar, farei uma demosntração simples utilizando meu celular. Você também pode fazer o mesmo para comparar os resultados.
 
-Vou digitar "EU" e, a partir daí, escolher sempre a primeira palavra sugerida no autocompletar.
+--
 
-EU TENHO UM AMIGO QUE TRABALHA NA LOJA
+Esses exemplos destacam as complexidades e desafios relacionados ao uso da IA generativa, evidenciando a importância de que todas as organizações estejam adequadamente preparadas para enfrentar e mitigar os riscos inerentes a essa tecnologia. Essa abordagem proativa e cautelosa é fundamental para garantir o uso responsável e seguro destas ferramentas, protegendo os interesses das empresas e minimizando os impactos negativos potenciais.
 
-Vou parar por aqui. 
+Sugestão de casos para o assunto "black box".
+https://venturebeat.com/business/when-ai-flags-the-ruler-not-the-tumor-and-other-arguments-for-abolishing-the-black-box-vb-live/
 
-O autocompletar do meu celular analisa as palavras digitadas até o momento e, com base em um dicionário de frequência, sugere as três palavras mais prováveis de continuar a frase. Essa escolha é influenciada não apenas pelo dicionário, mas também pelo seu estilo de escrita e vocabulário. Por isso, mesmo que você tenha um celular igual ao meu é provável que a frase gerada no seu celular seja diferente.
- 
-Esse trabalho estatístico na escolha das palavras geralmente produz frases convincentes, como no meu exemplo. Porém, mesmo uma pequena alteração, como substituir uma palavra, pode mudar completamente o texto, demonstrando a sensibilidade desse processo.
-Por exemplo, agora, ao invés de escolher "TENHO" após "EU", optarei pela palavra "NÃO", que é a segunda opção. Observe como o texto muda significativamente, mesmo que eu volte a escolher as primeiras opções sugeridas pelo recurso de autocompletar após "NÃO".
+Sugestões para o viés: - para colocação no capítulo de dicas para implantação da ia na organização
+Educação e Treinamento: Os CEOs devem investir em educação e treinamento para sua equipe sobre os riscos e as melhores práticas para evitar o viés em IA. Isso inclui a criação de programas internos de conscientização sobre como identificar e corrigir vieses nos dados e nos modelos.
 
-EU NÃO TENHO O EMAIL DO PROFESSOR.
+Diversidade na Equipe de Desenvolvimento: As equipes responsáveis pelo desenvolvimento e implementação de IA devem ser diversificadas. Isso ajuda a garantir que diferentes perspectivas sejam consideradas e que os vieses implícitos sejam minimizados.
 
-O processo de geração de textos do ChatGPT funciona de uma forma muito mais elaborada do que a que demonstrei. Contudo, por mais complexa que seja essa geração, a essência permanece a mesma. O ChatGPT não "sabe" sobre o que está escrevendo, mas utiliza o contexto da conversa e a probabilidade das palavras para gerar seus textos.
+Transparência e Auditoria: Implementar processos de auditoria regulares para os sistemas de IA, garantindo que sejam transparentes e que possam ser revisados por terceiros. Isso ajuda a identificar e corrigir vieses que possam surgir ao longo do tempo.
 
-# Chamada próximo capítulo
-Você viu no vídeo como a estatística pode ser usada para gerar textos convincentes, mas que essa mesma estatística representa sua principal vulnerabilidade. E as consequencias para quem adota a IA e não conhcem estas vulnerabilidades podem ser devastadoras. Modelos de linguagem podem halucinar e ferramentas de IA podem estar carregadas de viés.
+Políticas e Diretrizes: Desenvolver políticas claras e diretrizes para o uso de IA dentro da empresa, incluindo a necessidade de avaliações de impacto sobre viés antes do lançamento de qualquer sistema.
 
-É sobre isso que vou falar no próximo capítulo. 
+Essas práticas ajudarão a garantir que a implementação da IA na sua organização seja ética, eficaz e alinhada com os valores e objetivos estratégicos da empresa.
 
-É por isso que, não é incomum, que o ChatGPT gere textos bastante convincentes, mas que não são verdadeiros. Isso já tem até um nome: HALUCINAÇÃO. Isso ocorre quando a ferramenta de IA gera informações incorretas ou inventadas. Isso acontece porque o modelo tenta prever a próxima palavra ou frase com base nos padrões que aprendeu, mas às vezes cria respostas que parecem plausíveis, mas não são verdadeiras.
+Sugestão para cuidado com as interpretações:
+He points to the model developed in the 1990s by a group of researchers in Pittsburgh to estimate the severity of patients with pneumonia to triage inpatient vs outpatient treatment. One thing this model learned was that, on average, people with asthma who come in with pneumonia have better health outcomes as a group than non-asthmatics. However, this wasn’t because having asthma is the great health bonus it was flagged as, but because patients with asthma get higher priority care, and also asthma patients are on high alert to go to their doctor as soon as they start to have pulmonary symptoms.
 
-GRAVAÇÃO PRAÇA ATLETICO. 
---> estou aqui para experimentar o ChatGPT 4o lançado recentemente. Vou fazer isso usando esta estátua que foi inaugurada no dia 10 de maio de 24 ou seja, três dias antes do lançamento do ChatGPT-4o.
- 
+Caso interessante da criação de llms
+A recent incident with one of my clients really drove this home. The company, a large e-commerce platform, had deployed a chatbot powered by the open source platform called ChatterBot to handle customer inquiries. The chatbot was a hit, providing quick, personalized responses that improved customer satisfaction. However, things took a dark turn when a malicious actor figured out how to prompt the chatbot to reveal sensitive customer information.
+https://www.darkreading.com/cybersecurity-operations/new-mindset-needed-for-large-language-models
 
+Redes neurais?
+Será que o problema a ser resolvido na sua empresa precisa utilizar modelos complexos?

@@ -2,30 +2,52 @@
 sidebar_position: 2
 ---
 # Viés
-Uma expressão popular entre os primeiros desenvolvedores de sistemas décadas atrás dizia: 'lixo entra, lixo sai'. É uma referência ao conceito de que dados de entrada defeituosos ou sem sentido em sistemas computacionais resultam em saídas igualmente deficientes, independentemente da qualidade do sistema em si. Esse mesmo princípio pode ser aplicado ao treinamento de IA: a qualidade do modelo é tão boa quanto os dados usados para treiná-lo. Se os dados de entrada forem tendenciosos, incompletos ou de má qualidade, isso resultará em um sistema de IA com saídas enviesadas ou imprecisas. Portanto, garantir dados de treinamento de alta qualidade e representatividade é essencial para o desenvolvimento de modelos de IA eficazes.
+Uma expressão popular entre os primeiros desenvolvedores de sistemas décadas atrás dizia: "lixo entra, lixo sai". Isso se refere ao conceito de que dados de entrada defeituosos ou sem sentido em sistemas computacionais resultam em saídas igualmente deficientes, independentemente da qualidade do sistema em si. Esse mesmo princípio se aplica ao treinamento de IA: a qualidade do modelo é tão boa quanto os dados usados para treiná-lo. Se os dados de entrada forem tendenciosos, incompletos ou de má qualidade, isso resultará em um sistema de IA com saídas enviesadas ou imprecisas. Portanto, garantir dados de treinamento de alta qualidade e representatividade é essencial para o desenvolvimento de modelos de IA eficazes.
 
-Por uma questão de precisão, é importante destacar que a eficácia de um sistema de IA não depende apenas da qualidade dos dados de treinamento, mas também da sua arquitetura, dos algoritmos utilizados e dos métodos de treinamento. Mesmo quando se dispõe de dados de alta qualidade, um modelo de IA pode produzir resultados insatisfatórios se não for adequadamente projetado, programado e parametrizado.
+ Por uma questão de precisão, é importante destacar que a eficácia de um sistema de IA não depende apenas da qualidade dos dados de treinamento, mas também de sua arquitetura, dos algoritmos utilizados e dos métodos de treinamento. Mesmo com dados de alta qualidade, um modelo de IA pode produzir resultados insatisfatórios se não for adequadamente projetado, programado e parametrizado.
 
 O viés em IA é um desafio significativo, tanto que até as maiores empresas de tecnologia enfrentaram, e ainda enfrentam, problemas com ele em suas ferramentas.
 
-Em 2015, o aplicativo de Fotos do Google identificou erroneamente um casal como “gorilas”, o que gerou críticas severas à empresa. O Google reconheceu o erro, e seus executivos fizeram declarações públicas de desculpas.
+Em 2015, o aplicativo de Fotos do Google identificou erroneamente um casal como "gorilas", gerando críticas severas à empresa. O Google reconheceu o erro, e seus executivos fizeram declarações públicas de desculpas.
 
-A Microsoft lançou um ChatBot no Twitter em 2016 para interagir com usuários, jovens e adolescentes, e aprender com eles. No entanto, o ChatBot rapidamente começou a fazer declarações ofensivas e racistas. A Microsoft teve que retirar o robô do ar poucas horas após o lançamento e emitir um pedido de desculpas. 
+A Microsoft lançou um ChatBot no Twitter em 2016 para interagir com usuários, jovens e adolescentes, e aprender com eles. No entanto, o ChatBot rapidamente começou a fazer declarações ofensivas e racistas. A Microsoft teve que retirar o robô do ar poucas horas após o lançamento e emitir um pedido de desculpas.
 
-Em 2018, a Amazon enfrentou problemas internos quando sua ferramenta de recrutamento, treinada com dados coletados pelo departamento de recursos humanos ao longo de 10 anos, demonstrou viés. A empresa desativou a ferramenta para solucionar o problema. Em um comunicado, um porta-voz da Amazon esclareceu que o programa nunca foi usado oficialmente. Mesmo assim, temos mais um caso reportado que destaca os riscos de sistemas de IA apresentarem viéses prejudiciais.
+Em 2018, a Amazon enfrentou problemas internos quando sua ferramenta de recrutamento, treinada com dados coletados pelo departamento de recursos humanos ao longo de 10 anos, demonstrou viés. A empresa desativou a ferramenta para solucionar o problema. Em um comunicado, um porta-voz da Amazon esclareceu que o programa nunca foi usado oficialmente. Mesmo assim, esse caso destaca os riscos de sistemas de IA apresentarem vieses prejudiciais.
 
-Em fevereiro de 2024, logo após o lançamento da sua ferramenta de geração de imagens, o Google publicou um pedido de desculpas pelo que descreveu como "imprecisões em algumas representações de imagens históricas geradas" por sua ferramenta de IA Gemini. A empresa admitiu que suas tentativas de criar uma "ampla variedade" de resultados não foram bem-sucedidas.
+Em fevereiro de 2024, logo após o lançamento de sua ferramenta de geração de imagens, o Google publicou um pedido de desculpas pelo que descreveu como "imprecisões em algumas representações de imagens históricas geradas" por sua ferramenta de IA Gemini. A empresa admitiu que suas tentativas de criar uma "ampla variedade" de resultados não foram bem-sucedidas.
+
+Essas exemplos reforçam que incorporar a IA na organização exige uma abordagem cuidadosa e crítica por parte de toda a organização e em especial os seus líderes. Sendo que este cuidado deve ocorrer não só no desenvolvimento e implantação da IA, incluindo a necessidade de monitoramento contínuo  e implementação de salvaguardas para mitigar riscos associados ao viés.
+
+Esses exemplos reforçam que incorporar a IA na organização exige uma abordagem cuidadosa e crítica por parte de toda a organização, especialmente dos seus líderes. Esse cuidado deve ocorrer não só na etapa de desenvolvimento ou implantação da IA, mas exige monitoramento contínuo e implementação de salvaguardas para mitigar riscos associados ao viés.
 
 # Viés na prática
---> exemplo usando os "sorvetes" no observable. Apenas alterando uma variável de quantidade com gráfico e tabela de previsão.
+Os exemplos de viés que apresentei acima podem fazer você pensar que esse risco está relacionado apenas a questões de preconceito, ofensas ou tratamento desigual. Embora um sistema de IA enviesado possa, de fato, gerar esses cenários, ele também pode fornecer informações ou fazer previsões equivocadas que levam a erros na tomada de decisões. É importante entender que o viés pode afetar diversos aspectos do negócio, comprometendo a precisão das análises e a eficácia das estratégias implementadas.
 
+**Impacto Financeiro**: Um sistema de IA enviesado pode influenciar negativamente as finanças da empresa, como previsões de demanda imprecisas que resultam em excesso ou falta de estoque.
 
-Essas consequências destacam a importância de uma abordagem cuidadosa e crítica ao desenvolver e implementar modelos de machine learning, incluindo a necessidade de monitoramento contínuo, avaliação de desempenho e implementação de salvaguardas para mitigar riscos.
+**Reputação da Empresa**: Decisões baseadas em informações enviesadas podem afetar a reputação da empresa, levando a uma perda de confiança por parte dos clientes e parceiros.
 
+**Legal e Regulatória**: Dependendo da indústria, o uso de sistemas de IA enviesados pode levar a complicações legais e regulatórias, incluindo multas e sanções.
 
-Riscos associados ao uso da ia generativa
-A adoção da IA generativa traz consigo uma série de riscos que já foram mapeados por especialistas. De acordo com Tate Ryan-Mosley, em um artigo publicado no MIT Technology Review's weekly, três desses riscos se destacam como particularmente preocupantes: o aumento e amplificação da desinformação, a presença de viés nos dados de treinamento e nos resultados gerados, bem como a deterioração da privacidade do usuário. Além destes pontos, é relevante acrescentar que a utilização de ferramentas de IA, como o ChatGPT, podem também levar à exposição de informações sensíveis da organização, além de suscitar preocupações relacionadas a plágio e violações de direitos autorais.
-Dois exemplos práticos. O primeiro eu extraí da própria documentação do ChatGPT, especificamente no texto que aborda as melhores práticas de segurança. Dentro desse tópico, destaca-se o risco de o ChatGPT gerar textos que, embora possam parecer plausíveis, não são precisos nem correspondem à realidade. Esse fenômeno é conhecido como "alucinações da IA".
-O segundo exemplo também envolve o ChatGPT. Em março deste ano, um usuário compartilhou uma imagem que exibia descrições de várias conversas disponíveis na seção “Histórico” do ChatGPT. Na postagem, o usuário afirmou não ter criado essas conversas. O erro, posteriormente confirmado pela OpenAI, apresentava aos usuários títulos de históricos de conversas mantidas com o ChatGPT por outras pessoas.
-Os riscos de plágio e violações de direitos autorais tem como origem o processo de treinamento das ferramentas de IA generativa. Muitas dessas ferramentas são alimentadas por extensos bancos de dados que contêm imagens e textos provenientes de diversas fontes, inclusive da internet. Recentemente, a empresa de mídia visual americana, Getty Images, bem como um grupo de artistas, reforçou essa preocupação ao tomarem medidas legais contra os criadores dos geradores de imagem Stable Diffusion e Midjourney. Essas ações judiciais têm como base a alegação de violação de direitos autorais. 
-Esses exemplos destacam as complexidades e desafios relacionados ao uso da IA generativa, evidenciando a importância de que todas as organizações estejam adequadamente preparadas para enfrentar e mitigar os riscos inerentes a essa tecnologia. Essa abordagem proativa e cautelosa é fundamental para garantir o uso responsável e seguro destas ferramentas, protegendo os interesses das empresas e minimizando os impactos negativos potenciais.
+**Eficiência Operacional**: Vieses podem impactar a eficiência operacional, como em processos de recrutamento, resultando na contratação de candidatos que não são os mais adequados para a empresa. 
+
+Compreender como a IA funciona é essencial para reconhecer como o viés pode ser introduzido e propagado nos sistemas de IA. Neste tópico, apresento de maneira prática como os dados podem influenciar os resultados de um modelo de IA. Meu objetivo é desmistificar a tecnologia e fornecer *insights* claros que permitirão a você implementar a IA em sua organização de forma responsável e sustentável, mitigando riscos e maximizando benefícios.
+
+# Uma loja de sorvetes
+Sim. O título deste tópico está certo. Organizei este exemplo com um mínimo de variáveis para que você possa literalmente ver o viés atuando em um modelo de *machine learning*.
+
+O contexto é o de um proprietário de uma loja de sorvetes que encomendou o desenvolvimento de um sistema de IA para prever a quantidade de sorvetes vendidos, com base na temperatura máxima do dia e no histórico de vendas.
+
+--> exemplo usando os "sorvetes" no observable. Alterar o observable abaixo para que permita ao leitor alterar um dos dados do treinamento relacionado a quantidade de sorvetes vendidos no dia. O exemplo mostra os dados de treinamento, uma tabela com as previsões, o gráfico com o resultado e um slider para alterar uma das linhas da tabela de dados usados para o treinamento do modelo.
+<iframe width="100%" height="618.234375" frameborder="0"
+  src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b?cells=viewof+polynome_degree%2CGrafico"></iframe>
+
+# Detecção de cancer de pele
+Peço desculpas se este assunto é sensível para você. Fique a vontade para pular este tópico e seguir no curso. Mas penso este caso este ser emblemático. Um artigo publicado na revista Nature em 2017 apresentou um trabalho de pesquisa em que foi desenvolvido um sistema de IA que atingiu um nível de precisão comparável ao de dermatologistas humanos no diagnóstico de lesões malignas da pele. O artivo informou que o sistema foi treinado usando um conjunto de dados de quase 130 mil imagens clínicas. Sem dúvida, uma ótima notícia.
+
+Entretanto, após a publicação, os autores do estudo notaram a existência de viés no modelo treinado. O sistema era mais propenso a detectar a ocorrência de cancer se a imagem apresentada ao sistema, ou seja a foto da pele do paciente analisado, incluísse um régua na imagem. Por que?  As imagens médicas de lesões cancerígenas costumam incluir uma régua para fins de escala. Nas não canceríginas não há a preocupação de incluir na imagem a regua para ajudar no controle.  Como resultado, no treinamento o modelo aprendeu a identificar a presença da régua como um indicador importante de malignidade.
+
+Em um novo artigo publicado pelos pesquisadores no ano seguinte eles comentaram sobre os riscos do viés:
+
+>Por exemplo, em nosso trabalho, observamos que o algoritmo parecia ter maior probabilidade de interpretar imagens com réguas como malignas. Por quê? Em nosso conjunto de dados, imagens com réguas eram mais propensas a serem malignas; assim, o algoritmo inadvertidamente “aprendeu” que réguas são malignas. Esses vieses em modelos de IA são inerentes, a menos que se dê atenção específica para lidar com entradas com variabilidade. Uma abordagem alternativa é incorporar padrões rigorosos e/ou hardware que permita a padronização das fotos, mas isso reduz o potencial de escalabilidade. 
+
