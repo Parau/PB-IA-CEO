@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+import ChatGPTWelcome from '@site/static/img/docs/welcome.jpg';
 
 # Alucinações
 Após o lançamento da versão GPT-4o, um colega propôs um desafio visual a essa nova versão do ChatGPT: analisar a foto de uma estátua recém-inaugurada. A resposta peculiar da IA chamou minha atenção. Registrei essa experiência para compartilhar neste curso de IA, pois revela de forma vívida as nuances da inteligência artificial em ação.
@@ -37,6 +38,11 @@ O termo "alucinação" é usado porque, assim como uma alucinação em seres hum
 
 # Por que a ferramenta alucina?
 Ferramentas baseadas em IA, como o ChatGPT, funcionam prevendo probabilidades de sequências de palavras. Cada palavra gerada é escolhida com base nas probabilidades calculadas a partir do texto atual. Quando o modelo faz uma previsão errada ou menos provável, pode resultar em uma "alucinação", ou seja, uma resposta que não é factualmente correta.
+
+
+<img src={ChatGPTWelcome} class='img-limit' />
+Marcar parte "alucinação"
+
 
 O ChatGPT foi treinado em vastos conjuntos de dados de texto, onde aprendeu padrões estatísticos e associações. No entanto, quando confrontado com perguntas ambíguas, incomuns ou com informações insuficientes nos dados de treinamento, a certeza sobre a próxima palavra a ser gerada diminui. Isso significa que a distribuição de probabilidade das possíveis próximas palavras se torna mais dispersa (menos concentrada em uma única palavra).
 

@@ -4,6 +4,9 @@ sidebar_position: 1
 import ReactPlayer from 'react-player'
 
 # Apresentação
+Quais líderes terão mais sucesso integrando Inteligência Artificial (IA) aos seus modelos de negócio?
+Aqueles que sabem focar no valor potencial que a IA possibilita.
+
 Imagine estar à frente de uma revolução que promete transformar a forma como sua empresa opera, inova e compete. Muitos acreditam que a Inteligência Artificial é um território exclusivo dos especialistas em TI, mas e se o verdadeiro poder da IA estivesse ao alcance de quem compreende suas engrenagens estratégicas? Aqueles que dominam os princípios por trás dessa tecnologia não apenas têm uma vantagem competitiva, mas também a capacidade de desbloquear oportunidades inéditas e moldar o futuro de seus negócios. Não fique à margem desta transformação — mergulhe fundo e descubra como a IA pode ser a chave para um crescimento extraordinário.
 
 <center>
