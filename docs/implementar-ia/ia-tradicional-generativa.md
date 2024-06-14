@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 # IA tradicional X generativa
-O lançamento do ChatGPT em 2022 foi um divisor de águas no uso da IA pelas empresas. Antes, a implementação da IA, vamos chamá-la de IA tradicional, era tarefa exclusiva de especialistas, cientistas de dados e engenheiros de machine learning. Com a popularização do ChatGPT, a IA tornou-se mais acessível, transformando-se em uma das plataformas web de crescimento mais rápido de todos os tempos. Essa democratização da tecnologia marcou o início de uma nova era, introduzindo o conceito de IA Generativa (GenAI).
+O lançamento do ChatGPT em 2022 foi um divisor de águas no uso da IA pelas empresas. Antes, a implementação da IA, vamos chamá-la de IA tradicional, era tarefa exclusiva de especialistas, cientistas de dados e engenheiros de machine learning. Com a popularização do ChatGPT, a IA tornou-se mais acessível, transformando-se em uma das plataformas web de crescimento mais rápido de todos os tempos. Essa democratização da tecnologia marcou o início de uma nova era, introduzindo o conceito de IA Generativa (GenAI). A GenAI é diferente dos avanços tecnológicos anteriores - mais acessível aos funcionários da linha de frente, com uma gama mais ampla de aplicações.
 
 Embora ambas as vertentes da IA se baseiem em princípios estatísticos e previsões, é útil diferenciá-las em termos de aplicação e funcionalidade. A IA tradicional, ou probabilística, foca em previsões e análises baseadas em dados históricos, enquanto a IA generativa também probabilistaca, exemplificada pelo ChatGPT, é capaz de criar conteúdo novo e original a partir dos dados usados no seu treinamento.
 
