@@ -1,6 +1,16 @@
 import React from "react";
 import mermaid from "mermaid";
 
+
+/* Retirei o mermaid para usar o svg do drawio. Para usar o mermaid:
+import Mermaid from '@site/src/components/mermaid';
+import curso from "@site/src/components/mermaid-diagram";
+
+        <div className="row" style={divStyle}>
+            <br />
+            <Mermaid chart={curso} />
+        </div>
+*/
 mermaid.initialize({
   startOnLoad: true,
   theme: "default",

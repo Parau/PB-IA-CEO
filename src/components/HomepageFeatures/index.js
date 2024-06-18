@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import Mermaid from '@site/src/components/mermaid';
-import curso from "@site/src/components/mermaid-diagram";
+
+import DrawioCurso from '@site/src/components/drawio-curso'
 
 const FeatureList = [
   {
@@ -52,20 +52,18 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container" style={paragrafo}>
         {/* Adicionando o novo recurso "Alo mundo" diretamente */}
-        <div className="row">
+        <div className="row" >
             <p>Seja bem-vindo ao PowerBook do curso <b>Inteligência Artificial para CEOs</b>. 
             Nosso objetivo é desmistificar essa tecnologia e mostrar, de forma objetiva, acessível e abrangente, 
-            como ela pode se tornar uma peça fundamental na estratégia da sua instituiçãp.</p>
+            como ela pode se tornar uma peça fundamental na estratégia da sua organização.</p>
             <p>Explore todo o conteúdo do curso, <b><a href="docs/intro">navegando de forma sequencial</a></b> ou utilizando a estrutura apresentada abaixo.
             </p>
         </div>
         <center>
         <div className="row" style={divStyle}>
             <br />
-            
-            <Mermaid chart={curso} />
-            
         </div>
+        <DrawioCurso />
         </center>
       </div>
     </section>

@@ -1,9 +1,17 @@
 ---
 sidebar_position: 2
 ---
+import ChartPwcCEOs from '@site/src/components/charts/PwcCEOsV2'
+import PwcCEOsFactors from '@site/src/components/charts/PwcCEOsFactorsV2'
 
 # O Desafio
-Você sabia que, segundo a pesquisa da PwC, quase metade dos CEOs estão preocupados com a continuidade dos seus negócios? Este cenário é impulsionado por fatores como a rápida mudança no perfil dos clientes, o aumento da concorrência e, principalmente, as transformações tecnológicas. Mas não se preocupe, estamos aqui para transformar desafios em oportunidades. Prepare-se para descobrir como a IA pode ser a chave para otimizar seus processos e até mesmo reinventar seu modelo de negócios. Vamos mergulhar juntos em três dicas essenciais que farão toda a diferença na sua jornada de adoção da IA.
+<ChartPwcCEOs />
+
+Segundo uma pesquisa da PwC, quase metade dos CEOs estão preocupados com a continuidade dos seus negócios. Este cenário é impulsionado por fatores como a rápida mudança no perfil dos clientes, o aumento da concorrência e, principalmente, as transformações tecnológicas. 
+
+<PwcCEOsFactors />
+
+Mas não se preocupe, estamos aqui para transformar desafios em oportunidades. Prepare-se para descobrir como a IA pode ser a chave para otimizar seus processos e até mesmo reinventar seu modelo de negócios. Vamos mergulhar juntos em três dicas essenciais que farão toda a diferença na sua jornada de adoção da IA.
 
 ## Rascunho do roteiro do vídeo
 >Parau
