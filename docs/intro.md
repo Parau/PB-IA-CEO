@@ -13,7 +13,7 @@ Imagine estar à frente de uma revolução que promete transformar a forma como 
 Não fique à margem dessa transformação; mergulhe fundo e descubra como a IA pode ser a chave para um crescimento extraordinário.
 
 <center>
-<ReactPlayer url='https://youtu.be/qVZZFQ-brA4' controls='true' />
+<ReactPlayer url='https://youtu.be/qVZZFQ-brA4' width='100%' controls='true' />
 </center>
 <br />
 Bem-vindo ao curso **Inteligência Artificial para CEOs**. Meu objetivo é desmistificar essa tecnologia e mostrar, de maneira objetiva, acessível e abrangente, como ela pode se tornar uma peça fundamental na estratégia da sua empresa. Com uma abordagem prática e exemplos reais, priorizei os conhecimentos-chave necessários para que você possa liderar a adoção da IA na sua organização de forma **responsável** e **sustentável**. Você entenderá como aplicar a IA para impulsionar a eficiência, a produtividade e a inovação, preparando sua organização para o futuro digital.
