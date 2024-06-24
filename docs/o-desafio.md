@@ -7,67 +7,75 @@ import PwcCEOsFactors from '@site/src/components/charts/PwcCEOsFactorsV2'
 # O Desafio
 <ChartPwcCEOs />
 
-Segundo uma pesquisa da PwC, quase metade dos CEOs estão preocupados com a continuidade dos seus negócios. Este cenário é impulsionado por fatores como a rápida mudança no perfil dos clientes, o aumento da concorrência e, principalmente, as transformações tecnológicas. 
+Segundo uma pesquisa da PwC, quase metade dos CEOs estão preocupados com a continuidade dos seus negócios. Este cenário é impulsionado por fatores como a rápida mudança no perfil dos clientes, o aumento da concorrência e, principalmente, as transformações tecnológicas.
 
 <PwcCEOsFactors />
 
-Mas não se preocupe, estamos aqui para transformar desafios em oportunidades. Prepare-se para descobrir como a IA pode ser a chave para otimizar seus processos e até mesmo reinventar seu modelo de negócios. Vamos mergulhar juntos em três dicas essenciais que farão toda a diferença na sua jornada de adoção da IA.
+Essas preocupações, apontadas pela PwC, têm levado os executivos a acelerarem a incorporação de tecnologias emergentes. A inovação tecnológica está no centro das discussões estratégicas das organizações, hoje com um destaque especial para uma nova classe de soluções baseadas na IA generativa. Os executivos estão sendo impulsionados pela promessa de que essas soluções redefinirão os padrões de eficiência, oferecerão novas formas de interação com os clientes e otimizarão processos internos.
 
-## Rascunho do roteiro do vídeo
->Parau
+A empolgação em torno da IA é palpável. Executivos, influenciados por histórias de sucesso e promessas de consultores e fornecedores, sentem-se compelidos a adotar a IA rapidamente, na expectativa de obter essas vantagens competitivas. 
 
-Olá! Que bom ver você por aqui!
+O desafio nestes momentos de mudança tecnológica é encontrar um equilíbrio entre dois extremos: ignorar a nova tecnologia, correndo o risco de se tornar obsoleto, e investir fortemente nela, correndo o risco de não obter o retorno esperado.
 
-A pesquisa da PwC apresentada no primeiro capítulo demostrou que quase a metade dos CEOs está preocupado com a continuidade dos seus negócios. A preocupação deriva de vários fatores como a contínua mudança no perfil do cliente, aumento de concorrência, mas, principalmente devido a mudanças tecnológicas.
+Os autores Thomas H. Davenport e George Westerman abordam esse desafio em um artigo da Harvard Business Review (HBR). Reproduzo um trecho a seguir:
 
->>Aponta no gráfico abaixo cada um dos itens narrados acima
+>*Há algo diferente sobre a mudança tecnológica que faz com que executivos seniores de grandes empresas estabelecidas ajam de maneira **diferente do que normalmente fariam**. Ao investir em uma mudança estratégica típica, os gestores geralmente têm bastante clareza sobre o que desejam realizar e o que será necessário para chegar lá. Dá muito trabalho acertar as coisas, mas eles sabem para onde estão indo e como medir o progresso. Se os indicadores se moverem na direção errada, eles podem tomar medidas para colocá-los no caminho certo ou optar por reduzir o investimento.*
+>
+>*Com a tecnologia da informação inovadora, no entanto, os executivos às vezes **perdem suas abordagens de decisão racional**. Certamente, é verdade que em tempos de mudança tecnológica radical, há muito o que descobrir. Os executivos precisam entender o que as novas tecnologias podem fazer e seu impacto nos mercados, produtos/serviços e canais de distribuição. Essas decisões são inevitavelmente influenciadas pelo *hype* dos fornecedores e da mídia, consultores caros oferecendo *insights* de “autoridade no assunto”, muitos experimentos de alto nível e algumas histórias de sucesso empolgantes que fazem as pessoas quererem mais. Um CIO carismático ou CDO pode tornar ainda mais difícil manter a cabeça fria nesses tempos inebriantes.*<br />
+>— *[Why So Many High-Profile Digital Transformations Fail](https://hbr.org/2018/03/why-so-many-high-profile-digital-transformations-fail) - Harvard Business Review*
 
-Essa pressão tem levado os executivos a acelerarem a incorporação de tecnologias emergentes, como a IA, para otimizar seus processos operacionais ou até mesmo reinventar o modelo de negócios.
+Como superar o desafio e encontrar o equilíbrio?
 
-Se este é o seu caso, tenho três dicas importantes. 
+Para responder a essa pergunta, podemos nos basear no texto da HBR apresentado acima. O equilíbrio pode ser buscado por meio do conhecimento da tecnologia e pela definição de um processo racional de escolha dos projetos. É essencial que os líderes estejam bem informados sobre as novas tecnologias e entendam seu impacto nos negócios. Além disso, é fundamental estabelecer critérios claros para a seleção de projetos, considerando sua viabilidade, impacto potencial e alinhamento com a estratégia da empresa. Dessa forma, é possível tomar decisões mais informadas e equilibradas, evitando tanto a estagnação quanto o investimento excessivo e mal direcionado.
 
-Primeiro... A decisão de incorporar a IA à sua organização não apenas representa um avanço tecnológico. A IA tem o potencial de causar impactos significativos em diversos aspectos do seu negócio, desde a forma como você interage com os clientes até a eficiência operacional. Dependendo da maturidade tecnológica atual da sua organização, pode ser necessário implementar a IA como parte de uma iniciativa abrangente de transformação digital.
+Por isso quero fazer duas perguntas para você. A primeira:
 
-Então... Atenção! Os números não são promissores nesta área. Pesquisas já chegaram a apontar que 70% das iniciativas de transformação digital não atingem seus objetivos (mostra gráfico bcg que mostra os graus de não atendimento). 
-Transformação digital é um processo complexo e desafiador que requer mudanças culturais, organizacionais e estratégicas. Não existe uma fórmula única para o sucesso nesse processo.
+<FAIcon icon="fa-circle-question" size="1x" /> **Você sabe como a inteligência artificial funciona?**
 
-Não a toa existem várias propostas de framework para orientar o processo de transformação digital. Não há uma grande empresa de consultoria que não possua a sua proposta. 
+Escolha abaixo o item que mais se encaixa com a sua resposta.
+<details>
+  <summary>Não sei como a IA funciona.</summary>
 
-Então, vamos a segunda dica! Se você ainda não tem experiência em processos de transformação digital, sugiro que você dedique um tempo para conhecer pelo menos um destes frameworks. 
+Os executivos precisam entender o que a IA é capaz de fazer e a partir disso entender seu impacto nos mercados, produtos/serviços e canais de distribuição. O entendimento dos 'bastidores' da IA, hoje dominado por poucos, permitirá que você aproveite ao máximo essa tecnologia inovadora.
 
-Por fim, vamos à terceira dica. Para aproveitar ao máximo os benefícios da IA, é importante considerar três perspectivas: o modelo de negócio, o modelo operacional e o modelo tecnológico da sua organização. Esses três aspectos devem estar alinhados e integrados para que a iniciativa tenha sucesso.
+Dediquei neste material um capítulo com o propósito de esclarecer o funcionamento da IA.
+</details>
+<details>
+  <summary>Já sei como a IA funciona.</summary>
 
-Um diagrama pode ajudar a visualizar essa interdependência. 
+Muitos acreditam que a Inteligência Artificial é um território exclusivo dos especialistas em TI, mas os executivos que dominam os princípios por trás dessa tecnologia não apenas têm uma vantagem competitiva, mas também a capacidade de desbloquear oportunidades inéditas e moldar o futuro de seus negócios. 
+</details>
 
-Por exemplo, é essencial avaliar se a sua infraestrutura e know-how tecnológico são adequados para sustentar a transformação do modelo de negócio. Da mesma forma, é necessário garantir que o modelo operacional aproveite ao máximo a tecnologia disponível.
+Vamos a segunda pergunta:
 
-Essa análise e planejamento integrados são cruciais para alinhar a incorporação da IA com a visão, missão e objetivos estratégicos da empresa, preparando a operação para maximizar benefícios, minimizar conflitos, eliminar gargalos e impulsionar a inovação e a experiência do cliente.
+<FAIcon icon="fa-circle-question" size="1x" /> **Quais problemas ou oportunidades sua organização pretente abordar com a IA?**
 
->Anna
+Ou em uma versão mais extensa da pergunta: Quais são os problemas específicos ou as oportunidades concretas sua organização está tentando resolver ou aproveitar com a implementação da IA?
 
-Como líder, é essencial compreender o verdadeiro impacto que o processo de adoção da IA terá em sua organização, e implementá-la de forma estratégica, sem se deixar levar pela empolgação tecnológica do momento ou pelo medo de ficar para trás.
-O Parau apresentou três dicas:
+<details>
+  <summary>Ainda não tenho as oportunidades e problemas mapeados!</summary>
 
-1) Incorporação da IA e Transformação Digital: Ao decidir incorporar a IA à sua organização, é fundamental compreender que os maiores benefícios só serão alcançados se essa implementação for tratada como parte de uma iniciativa abrangente de transformação digital. Isso implica em impactos significativos em diversos aspectos do seu negócio.
-2) Conheça os Frameworks de Transformação Digital: As taxas de sucesso nos projetos de transformação digital não são altas. Esteja atento e preparado para os desafios. Esse processo requer mudanças na cultura organizacional, nos processos operacionais e nas estratégias de mercado. Não existe uma fórmula única para o sucesso. Por isso, é fundamental conhecer e utilizar frameworks que orientem esse processo.
-3) Modelo de negócio, operacional e tecnológico: Ao repensar o modelo de negócio para incorporar a IA, é fundamental considerar também as mudanças necessárias nos modelos operacional e tecnológico da organização. A incompatibilidade em um desses modelos pode comprometer toda a iniciativa.
+O sucesso da implementação da IA na sua organização depende da identificação clara dos problemas específicos ou das oportunidades concretas que deseja resolver ou aproveitar com a IA. Sem essa clareza, corre-se o risco de desperdiçar recursos e não obter os resultados esperados.
 
->Parau
+Nos próximos capítulos, sugerirei uma estratégia para realizar esse mapeamento, ajudando a identificar áreas críticas e oportunidades promissoras onde a IA pode trazer benefícios significativos.
+</details>
+<details>
+  <summary>Já tenho mapeado os problemas e as oportunidades!</summary>
 
-Com toda a empolgação e relatos de sucesso envolvendo IA, pode ser difícil controlar a ansiedade e acabar se lançando na implementação dessa tecnologia imediatamente. No entanto, a chave para uma implementação bem-sucedida está em fazer as perguntas certas antes de iniciar essa jornada. 
-1) Quais são os objetivos específicos que a IA deve alcançar na organização? 
-2) Já considerou o potencial retorno sobre o investimento e a viabilidade financeira?
-3) Avaliou se possui o know-how e a infraestrutura tecnológica necessária?
-4) E quanto aos impactos nos processos de negócios existentes?
-5) Os aspectos éticos e legais foram analisados?
-6) Os riscos foram mapeados?
-7) E, finalmente, existe um plano de comunicação e treinamento para envolver todos os colaboradores?
+Ter uma resposta clara para 'Quais problemas ou oportunidades queremos abordar com a IA?' é um passo essencial para o sucesso da implementação da IA na organização. Nos próximos capítulos, sugerirei um processo de priorização e um guia passo a passo para a implementação eficaz da IA, garantindo que você aproveite ao máximo essa tecnologia inovadora e obtenha os resultados desejados.
 
-Refletir sobre essas questões pode fazer toda a diferença no sucesso da sua estratégia de IA.
+Nos próximos capítulos vou sugerir um processo de como priorizar e o passo a passo para a sua implantação.  
+</details>
 
->Ana
+Com o que vimos neste capítulo, vamos começar a estruturar o processo de implementação da IA em sua organização.
 
-Antes de se lançar de vez na adoção da IA em sua organização, respire fundo e controle a ansiedade. No próximo capítulo, vamos explorar casos de uso da IA, que certamente irão te inspirar e te preparar para essa jornada.
+<center>
+![Fluxo implantação IA](diagrama-o-desafio.svg)
+</center>
 
-## Chamada próximo capítulo
-No próximo capítulo, vamos explorar casos inspiradores de uso da IA. Esses exemplos práticos vão revelar como algumas empresas estão transformando seus negócios com a IA, oferecendo *insights* valiosos que você pode aplicar na sua própria estratégia. Prepare-se para uma imersão no mundo da IA, repleta de ideias e soluções concretas que podem revolucionar a sua organização. Não perca essa oportunidade de aprender e se inspirar com os melhores!
+Neste capítulo, falamos sobre a importância de encontrar um equilíbrio ao adotar novas tecnologias, evitando tanto a obsolescência quanto os investimentos excessivos e mal direcionados. Ressaltamos a necessidade dos executivos conhecerem o funcionamento da tecnologia, assim como estabelecer um processo racional para a escolha dos projetos, buscando evitar que a empolgação ou as histórias de sucesso influenciem e levem a decisões precipitadas.
+
+O conhecimento técnico e estratégico, aliado a uma abordagem racional, garantirá que os investimentos em novas tecnologias tragam retornos significativos e sustentáveis. Nos próximos capítulos, vamos explorar mais detalhadamente como implementar essas estratégias de maneira prática, garantindo que sua organização esteja bem posicionada para aproveitar as oportunidades oferecidas pela inteligência artificial.
+
+## Próximo capítulo
+Antes de detalhar o processo de implantação da IA delineado anteriormente (Entender, Mapear, Priorizar e Implantar), apresentarei algo que sugiro ser feito antes de qualquer outra iniciativa relacionada à implantação da IA na organização. É o que chamo de "passo zero", uma etapa que você não pode ignorar, mesmo que sua organização já tenha iniciado a implantação da IA.
