@@ -27,37 +27,3 @@ Para empresas que que treinam ou personalizam seus próprios modelos de IA a que
 
 ## Controle de acesso
 Especialmente quando estiver treinando modelos de linguagem usando dados da empresa, esteja atento aos níveis de confidencialidade destes dados. Treinar um modelo de linguagem em um grande conjunto de dados de documentos e relatórios da empresa pode ser útil para diversas tarefas, como gerar resumos de documentos, responder a perguntas ou até mesmo criar novos conteúdos. No entanto, é importante ter em mente que, se o modelo for treinado em um conjunto de dados que não leva em consideração os diferentes níveis de acesso dos usuários dentro da organização, ele poderá gerar informações confidenciais que não deveriam ser acessíveis a todos.
-
-
-
-
-
-
-
---
-
-Esses exemplos destacam as complexidades e desafios relacionados ao uso da IA generativa, evidenciando a importância de que todas as organizações estejam adequadamente preparadas para enfrentar e mitigar os riscos inerentes a essa tecnologia. Essa abordagem proativa e cautelosa é fundamental para garantir o uso responsável e seguro destas ferramentas, protegendo os interesses das empresas e minimizando os impactos negativos potenciais.
-
-Sugestão de casos para o assunto "black box".
-https://venturebeat.com/business/when-ai-flags-the-ruler-not-the-tumor-and-other-arguments-for-abolishing-the-black-box-vb-live/
-
-Sugestões para o viés: - para colocação no capítulo de dicas para implantação da ia na organização
-Educação e Treinamento: Os CEOs devem investir em educação e treinamento para sua equipe sobre os riscos e as melhores práticas para evitar o viés em IA. Isso inclui a criação de programas internos de conscientização sobre como identificar e corrigir vieses nos dados e nos modelos.
-
-Diversidade na Equipe de Desenvolvimento: As equipes responsáveis pelo desenvolvimento e implementação de IA devem ser diversificadas. Isso ajuda a garantir que diferentes perspectivas sejam consideradas e que os vieses implícitos sejam minimizados.
-
-Transparência e Auditoria: Implementar processos de auditoria regulares para os sistemas de IA, garantindo que sejam transparentes e que possam ser revisados por terceiros. Isso ajuda a identificar e corrigir vieses que possam surgir ao longo do tempo.
-
-Políticas e Diretrizes: Desenvolver políticas claras e diretrizes para o uso de IA dentro da empresa, incluindo a necessidade de avaliações de impacto sobre viés antes do lançamento de qualquer sistema.
-
-Essas práticas ajudarão a garantir que a implementação da IA na sua organização seja ética, eficaz e alinhada com os valores e objetivos estratégicos da empresa.
-
-Sugestão para cuidado com as interpretações:
-He points to the model developed in the 1990s by a group of researchers in Pittsburgh to estimate the severity of patients with pneumonia to triage inpatient vs outpatient treatment. One thing this model learned was that, on average, people with asthma who come in with pneumonia have better health outcomes as a group than non-asthmatics. However, this wasn’t because having asthma is the great health bonus it was flagged as, but because patients with asthma get higher priority care, and also asthma patients are on high alert to go to their doctor as soon as they start to have pulmonary symptoms.
-
-Caso interessante da criação de llms
-A recent incident with one of my clients really drove this home. The company, a large e-commerce platform, had deployed a chatbot powered by the open source platform called ChatterBot to handle customer inquiries. The chatbot was a hit, providing quick, personalized responses that improved customer satisfaction. However, things took a dark turn when a malicious actor figured out how to prompt the chatbot to reveal sensitive customer information.
-https://www.darkreading.com/cybersecurity-operations/new-mindset-needed-for-large-language-models
-
-Redes neurais?
-Será que o problema a ser resolvido na sua empresa precisa utilizar modelos complexos?
