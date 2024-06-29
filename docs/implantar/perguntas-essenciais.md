@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 # Perguntas essenciais
-No capítulo anterior eu falei sobre a importância de estabelecer para seleção e priorização dos projetos a serem implantados. Os critérios são como perguntas esenciais que submetemos a cada um dos projetos para verificar se a ideia está alinhada com a estratégia organizacional e se resolve um problema específico. Os benefícios esperados, tanto tangíveis quanto intangíveis, devem ser claramente identificados, assim como o retorno sobre o investimento (ROI) esperado.
+A IA tem o potencial de transformar negócios, mas também pode ser um investimento significativo em termos de tempo, recursos e esforço. No capítulo anterior eu falei sobre a importância de estabelecer critérios para seleção e priorização dos projetos a serem implantados. Os critérios são como perguntas esenciais que submetemos a cada um dos projetos para verificar se a ideia está alinhada com a estratégia organizacional e se resolve um problema específico. Os benefícios esperados, tanto tangíveis quanto intangíveis, devem ser claramente identificados, assim como o retorno sobre o investimento (ROI) esperado. As Perguntas Essenciais servem como um filtro inicial para determinar se um projeto de IA é a melhor escolha para sua organização. Elas ajudam a esclarecer os objetivos, identificar possíveis obstáculos e garantir que todos os envolvidos tenham uma compreensão clara do que se pretende alcançar.
+
+ 
 
 Além disso, é importante que as perguntas essenciais questione para cada projeto os recursos necessários para a implementação, incluindo recursos tecnológicos, humanos e financeiros. A viabilidade técnica deve ser avaliada, verificando a disponibilidade de dados, a complexidade técnica e a integração com os sistemas existentes. Os riscos e desafios associados, como riscos operacionais, de segurança, privacidade e financeiros, também devem ser analisados. 
 
