@@ -37,5 +37,3 @@ Para realizar uma POC eficaz, siga estas etapas:
 ### Conclusão
 
 A realização de uma Prova de Conceito (POC) é um passo essencial para alcançar o sucesso de projetos de IA. Ela valida a viabilidade técnica, avalia o valor potencial, identifica riscos, facilita a tomada de decisões e promove o engajamento dos colaboradores. Ao incorporar a POC em sua estratégia de implementação de IA, sua organização pode minimizar riscos e maximizar os benefícios, assegurando que os projetos selecionados realmente tragam valor e impacto positivos.
-
----

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 # O que esperar da IA
 ### Fechamento do Curso de IA para CEOs

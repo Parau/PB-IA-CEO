@@ -1,7 +1,7 @@
 ---
-sidebar_position: 6
+sidebar_position: 9
 ---
-# Priorizar
+# Priorizar - anterior
 <center>
 ![Fluxo implantação IA](diagrama-priorizar.svg)
 </center>
