@@ -6,6 +6,9 @@ Select Extras > Plugins from the menu
 Click Add
 Svgdata
 Ou online https://app.diagrams.net/?p=svgdata
+
+Observar se ele tem os data-section que indica os itens para o checks de visitado
+data-section="apresentacao"
 */
 
 
