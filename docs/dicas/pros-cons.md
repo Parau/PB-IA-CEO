@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 # Prós e Contras da Adoção da IA
 ## Prós

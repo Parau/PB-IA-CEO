@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 # Aprendendo com os melhores
 Eu quero compartilhar com você cinco fatores-chave que diferenciam as empresas que estão se destacando na aplicação de GenIA, conforme identificado pela pesquisa realizada pela BCG com mais de 1.400 executivos.

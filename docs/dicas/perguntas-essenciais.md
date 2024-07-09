@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 # Perguntas essenciais
 No fluxo de implementação da IA existe um item chamado Perguntas Essenciais.

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 # Inteligência e análise de dados
 Eu acredito e aponto isso ao longo do curso de que implementar a IA em uma organização deve ser um processo gradual e estratégico. Gradual não significa necessariamente lento, mas sim um ritmo constante e evolutivo que permite à organização e sua infraestrutura se adaptarem adequadamente, criando uma base sólida para um crescimento contínuo e sustentável. Dessa forma, evitamos embarcar em projetos que provavelmente não terão sucesso devido à falta de experiência, recursos ou infraestrutura.
