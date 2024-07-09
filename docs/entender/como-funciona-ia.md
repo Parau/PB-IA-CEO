@@ -58,7 +58,7 @@ EU NÃO TENHO O EMAIL DO PROFESSOR.
 O processo de geração de textos do ChatGPT funciona de uma forma muito mais elaborada do que a que demonstrei. Contudo, por mais complexa que seja essa geração, a essência permanece a mesma. O ChatGPT não "sabe" sobre o que está escrevendo, mas utiliza o contexto da conversa e a probabilidade das palavras para gerar seus textos.
 
 # Chamada próximo capítulo
-Você viu no vídeo como a estatística pode ser usada para gerar textos convincentes, mas que essa mesma estatística representa sua principal vulnerabilidade. E as consequencias para quem adota a IA e não conhecem estas vulnerabilidades podem ser devastadoras. Modelos de linguagem podem halucinar e ferramentas de IA podem estar carregadas de viés.
+Você viu no vídeo como a estatística pode ser usada para gerar textos convincentes, mas que essa mesma estatística representa sua principal vulnerabilidade. E as consequencias para quem adota a IA e não conhecem estas vulnerabilidades podem ser devastadoras. Modelos de linguagem podem alucinar e ferramentas de IA podem estar carregadas de viés.
 
 É sobre isso que vou falar no próximo capítulo.
  
