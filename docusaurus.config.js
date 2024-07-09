@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IA para CEOs',
-  tagline: 'Guiando sua organização em tempos de IA',
+  title: 'IA para Executivos',
+  tagline: 'Guia essencial para CEOs e líderes.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'IA CEOs',
+        title: 'Guia IA Executivos',
         logo: {
           alt: 'CRIATIVIDADE.digital',
           src: 'img/ideia.svg',
