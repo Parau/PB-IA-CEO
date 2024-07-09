@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 import ChartPwcCEOs from '@site/src/components/charts/PwcCEOsV2'
 import PwcCEOsFactors from '@site/src/components/charts/PwcCEOsFactorsV2'
