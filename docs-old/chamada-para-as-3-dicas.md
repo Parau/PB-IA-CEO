@@ -47,4 +47,4 @@ Os sistemas de IA geradores de texto, como o ChatGPT, são construídos sobre mo
 - Alucinação generativa
 
 ## Vamos lá!
-A empolgação em torno da IA generativa está no auge! Mas, com essa empolgação vem um risco real: como equilibrar a necessidade de inovação com a prudência nos investimentos? Esse desafio é o tema do próximo capítulo.
+No próximo capítulo, iniciaremos o curso mergulhando juntos em três dicas essenciais que farão toda a diferença na sua jornada de adoção da IA. Está pronto para revolucionar sua estratégia e liderar o futuro? Então, vamos começar!
