@@ -13,7 +13,7 @@
 .text-highlight {
   /*all: unset;*/
   display: inline-block; /* Ensure the padding is applied correctly */
-  padding: 0.05em 0.15em 0.15em 0.25em; /* Adjust the padding as needed to increase the background height */
+  /*padding: 0.05em 0.15em 0.15em 0.25em;*/ /* Adjust the padding as needed to increase the background height */
   background-repeat: no-repeat;
   background-size: 0% 100%;
   transition: color calc(2s / 4) cubic-bezier(0.25, 1, 0.5, 1),
