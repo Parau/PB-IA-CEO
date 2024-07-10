@@ -1,4 +1,4 @@
-
+/*
 .dark-mode {
   --bg-color-hsl: 0, 0%, 7%;
   --bg-color: hsl(var(--bg-color-hsl));
@@ -6,8 +6,7 @@
   --bg-color-highlight: hsl(238, 70%, 40%);
   --color-text: hsl(0, 0%, 80%);
   --color-text-highlight: hsl(0, 0%, 100%);
-}
-
+}*/
 
 
 .text-highlight {
@@ -22,7 +21,15 @@
   background-image: linear-gradient( white 60%, gold 40%);
 
   /* Explicitly inherit font properties from parent */
-  font: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-transform: inherit;
   color: inherit;
 }
 
