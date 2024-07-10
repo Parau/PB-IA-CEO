@@ -23,40 +23,41 @@
 
 .accordion {
   background: linear-gradient(200deg, rgb(26, 125, 218) 13.57%, rgb(90, 54, 192) 98.38%);
-  /*width: max(50vw, 280px);*/
+  /* width: max(50vw, 280px); */
   padding: 15px 30px 10px;
   border-radius: 15px;
   margin-bottom: 20px;
-  /*box-shadow: 0 30px 30px -10px rgba(0, 0, 0, .3);*/
-  
-  &:nth-child(2) {
-    background: linear-gradient(200deg, rgb(231, 131, 128) 13.57%, rgb(233, 79, 102) 98.38%);
-  }
-  
-  &:nth-child(3) {
-    background: linear-gradient(200deg, rgb(91, 169, 107) 13.57%, rgb(70, 111, 171) 98.38%);
-  }
-  
-  &:nth-child(4) {
-    background: linear-gradient(200deg, #c215d1 13.57%, #8d1196 98.38%);
-  }
-
-  &:nth-child(5) {
-    background: linear-gradient(200deg, rgb(26, 125, 218) 13.57%, rgb(90, 54, 192) 98.38%);
-  }
-
-  &:nth-child(6) {
-    background: linear-gradient(200deg, rgba(228, 138, 21, 0.708) 13.57%, rgb(216, 119, 74) 98.38%);
-  }
-
-  &:nth-child(7) {
-    background: linear-gradient(200deg, rgb(91, 169, 107) 13.57%, rgb(70, 111, 171) 98.38%);
-  }
-
-  &:nth-child() {
-    background: linear-gradient(200deg, #c215d1 13.57%, #8d1196 98.38%);
-  }
+  /* box-shadow: 0 30px 30px -10px rgba(0, 0, 0, .3); */
 }
+
+.accordion:nth-child(2) {
+  background: linear-gradient(200deg, rgb(231, 131, 128) 13.57%, rgb(233, 79, 102) 98.38%);
+}
+
+.accordion:nth-child(3) {
+  background: linear-gradient(200deg, rgb(91, 169, 107) 13.57%, rgb(70, 111, 171) 98.38%);
+}
+
+.accordion:nth-child(4) {
+  background: linear-gradient(200deg, #c215d1 13.57%, #8d1196 98.38%);
+}
+
+.accordion:nth-child(5) {
+  background: linear-gradient(200deg, rgb(26, 125, 218) 13.57%, rgb(90, 54, 192) 98.38%);
+}
+
+.accordion:nth-child(6) {
+  background: linear-gradient(200deg, rgba(228, 138, 21, 0.708) 13.57%, rgb(216, 119, 74) 98.38%);
+}
+
+.accordion:nth-child(7) {
+  background: linear-gradient(200deg, rgb(91, 169, 107) 13.57%, rgb(70, 111, 171) 98.38%);
+}
+
+.accordion:nth-child(8) { /* Assuming you meant to target the 8th child here */
+  background: linear-gradient(200deg, #c215d1 13.57%, #8d1196 98.38%);
+}
+
 
 .spacer {
   height: 70vh;
