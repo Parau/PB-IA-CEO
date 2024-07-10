@@ -1,0 +1,44 @@
+:root {
+  --bg-color-hsl: 59, 3%, 94%;
+  --bg-color: hsl(var(--bg-color-hsl));
+  --bg-color-translucent: hsla(var(--bg-color-hsl), 0.95);
+  --bg-color-highlight: hsla(60, 100%, 54%, 0.619);
+  --color-text: hsl(192, 14%, 20%);
+  --color-text-highlight: hsl(192, 14%, 0%);
+  --page-width: 80ch;
+  --paragraph-font-size: min(max(1.2rem, 4vw), 1.4rem);
+  --header-font-size: min(max(2rem, 8vw), 4rem);
+  --space: 2rem;
+  --padding: 8vmin;
+  --duration: 2s;
+  --ease: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.dark-mode {
+  --bg-color-hsl: 0, 0%, 7%;
+  --bg-color: hsl(var(--bg-color-hsl));
+  --bg-color-translucent: hsla(var(--bg-color-hsl), 0.95);
+  --bg-color-highlight: hsl(238, 70%, 40%);
+  --color-text: hsl(0, 0%, 80%);
+  --color-text-highlight: hsl(0, 0%, 100%);
+}
+
+
+
+.text-highlight {
+  all: unset;
+  display: inline-block; /* Ensure the padding is applied correctly */
+  padding: 0.05em 0.15em 0.15em 0.25em; /* Adjust the padding as needed to increase the background height */
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: color calc(var(--duration) / 4) var(--ease),
+    background-color calc(var(--duration) / 4) var(--ease),
+    background-size var(--duration) var(--ease);
+
+  &.active {
+    color: var(--color-text-highlight);
+    background-size: 100% 100%;
+  }
+  background-image: linear-gradient( white 60%, gold 40%);
+
+}

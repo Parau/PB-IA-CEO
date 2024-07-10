@@ -3,19 +3,20 @@ sidebar_position: 3
 ---
 import ChartPwcCEOs from '@site/src/components/charts/PwcCEOsV2'
 import PwcCEOsFactors from '@site/src/components/charts/PwcCEOsFactorsV2'
+import LigaHighlight from '@site/src/components/gsap/highlight'
 
 # O Desafio
 <ChartPwcCEOs />
-
+<LigaHighlight />
 Segundo uma pesquisa da PwC, quase metade dos CEOs estão preocupados com a continuidade dos seus negócios. Este cenário é impulsionado por fatores como a rápida mudança no perfil dos clientes, o aumento da concorrência e, principalmente, as transformações tecnológicas.
 
 <PwcCEOsFactors />
 
-Essas preocupações, apontadas pela PwC, têm levado os executivos a acelerarem a incorporação de tecnologias emergentes. A inovação tecnológica está no centro das discussões estratégicas das organizações, hoje com um destaque especial para uma nova classe de soluções baseadas na IA generativa. Os executivos estão sendo impulsionados pela promessa de que essas soluções redefinirão os padrões de eficiência, oferecerão novas formas de interação com os clientes e otimizarão processos internos.
+As <mark class="text-highlight">preocupações destacadas</mark> pela PwC têm levado executivos a acelerar a adoção de tecnologias emergentes, com a IA generativa no centro das discussões estratégicas das organizações.
 
-A empolgação em torno da IA é palpável. Executivos, influenciados por histórias de sucesso e promessas de consultores e fornecedores, sentem-se compelidos a adotar a IA rapidamente, na expectativa de obter essas vantagens competitivas. 
+A empolgação em torno da IA é evidente. Influenciados por histórias de sucesso e promessas de consultores e fornecedores, os executivos sentem-se compelidos a adotar a IA rapidamente, na expectativa de obter essas vantagens competitivas. 
 
-O desafio nestes momentos de mudança tecnológica é encontrar um equilíbrio entre dois extremos: ignorar a nova tecnologia, correndo o risco de se tornar obsoleto, e investir fortemente nela, correndo o risco de não obter o retorno esperado.
+O desafio <spam>nestes</spam> momentos de mudança tecnológica é encontrar um equilíbrio entre dois extremos: ignorar a nova tecnologia, correndo o risco de se tornar obsoleto, e investir fortemente nela, correndo o risco de não obter o retorno esperado.
 
 Os autores Thomas H. Davenport e George Westerman abordam esse desafio em um artigo da Harvard Business Review (HBR). Reproduzo um trecho a seguir:
 
