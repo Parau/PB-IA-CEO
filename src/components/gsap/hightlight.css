@@ -21,10 +21,15 @@
     background-size 2s cubic-bezier(0.25, 1, 0.5, 1);
   background-image: linear-gradient( white 60%, gold 40%);
 
+  /* Explicitly inherit font properties from parent */
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
 }
 
 .text-highlight.active  {
     color: hsl(192, 14%, 0%);
     background-size: 100% 100%;
-  }
+}
 
