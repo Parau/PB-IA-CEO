@@ -34,11 +34,12 @@
   transition: color calc(var(--duration) / 4) var(--ease),
     background-color calc(var(--duration) / 4) var(--ease),
     background-size var(--duration) var(--ease);
-
-  &.active {
-    color: var(--color-text-highlight);
-    background-size: 100% 100%;
-  }
   background-image: linear-gradient( white 60%, gold 40%);
 
 }
+
+.text-highlight.active  {
+    color: var(--color-text-highlight);
+    background-size: 100% 100%;
+  }
+
