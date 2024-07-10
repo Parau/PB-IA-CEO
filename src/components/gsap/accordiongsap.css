@@ -86,7 +86,9 @@
 @media (min-width: 481px) and (max-width: 548px) {
   .accordion {
     height: 85px;
-    font-size: 27px;
+  }
+  .text {
+    font-size: 19px;
   }
 }
 
