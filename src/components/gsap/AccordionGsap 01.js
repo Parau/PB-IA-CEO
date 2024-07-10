@@ -21,33 +21,36 @@ const AccordionGsap = () => {
     //define o topo do accordions baseado na altura do navbar docusaurus
     const start = "top "+(navbar.offsetHeight+5)+"px";
 
-
-    // Select all the accordion elements
-    const accordions = document.querySelectorAll('.accordion');
-
-    // Loop through each accordion and create a ScrollTrigger for each
-    accordions.forEach((accordion, index) => {
-      gsap.fromTo(accordion, 
-        {
-          height: 65 // Initial height
-        },
-        {
-          height: 'auto', // Final height
-          scrollTrigger: {
-            trigger: accordion,
-            pin: false,
-            pinSpacing: true,
-            start: start, // 'top top', // Start when the top of the accordion is at the bottom of the viewport
-            end: 'top bottom', // End when the bottom of the accordion is at the top of the viewport
-            scrub: 1,
-            ease: 'linear',
-            stagger: .1,
-            toggleActions: 'play none none none' // Only play the animation on scroll
-          }
+    const tl = gsap.timeline({
+      scrollTrigger: {
+          trigger: '.accordions',
+          pin: false,
+          pinSpacing: true,
+          start: start, //'top top',
+          end: 'top top',
+          scrub: 1,
+          ease: 'linear',
         }
-      );
-    });
+    })
 
+    tl.to('.accordion', {
+      height: 'auto',
+      /*duration: 5, */
+      /*each: 3.5, */
+      stagger: .5,
+    }, '<')
+    
+    /*
+    tl.to('.accordion .text', {
+      height: 0,
+      paddingBottom: 0,
+      opacity: 0,
+      stagger: .5,
+    })
+    tl.to('.accordion', {
+      marginBottom: -15,
+      stagger: .5,
+    }, '<')*/
   }
 ); // <-- scope is for selector text (optional)
 
