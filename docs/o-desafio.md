@@ -12,7 +12,7 @@ Segundo uma pesquisa da PwC, quase metade dos CEOs estão preocupados com a cont
 
 <PwcCEOsFactors />
 
-As <spam class="text-highlight">preocupações destacadas</spam> pela PwC têm levado executivos a acelerar a adoção de tecnologias emergentes, com a IA generativa no centro das discussões estratégicas das organizações.
+As <spam class="text-highlight">preocupações destacadas</spam> pela PwC têm levado <spam>executivos</spam> a acelerar a adoção de tecnologias emergentes, com a IA generativa no centro das discussões estratégicas das organizações.
 
 A empolgação em torno da IA é evidente. Influenciados por histórias de sucesso e promessas de consultores e fornecedores, os executivos sentem-se compelidos a adotar a IA rapidamente, na expectativa de obter essas vantagens competitivas. 
 
