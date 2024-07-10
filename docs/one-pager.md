@@ -57,7 +57,7 @@ Neste *one pager*, você encontrará um resumo do essencial sobre a IA Generativ
     </div>
   </div>
 
-  <div class="accordion">
+    <div class="accordion">
     <div class="title">
 ## Cinco motivos para adotar a IA em minha organização.
     </div>
@@ -72,7 +72,6 @@ Neste *one pager*, você encontrará um resumo do essencial sobre a IA Generativ
       </ol>
       </p>
     </div>
-    
   </div>
 
   <div class="accordion">

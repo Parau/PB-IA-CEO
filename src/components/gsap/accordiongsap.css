@@ -23,7 +23,7 @@
 
 .accordion {
   background: linear-gradient(200deg, rgb(26, 125, 218) 13.57%, rgb(90, 54, 192) 98.38%);
-  width: max(50vw, 280px);
+  /*width: max(50vw, 280px);*/
   padding: 15px 30px 10px;
   border-radius: 15px;
   margin-bottom: 20px;
@@ -69,21 +69,34 @@
   }
 }
 
-@media (min-width: 630px) and (max-width: 1033px) {
+@media (min-width: 997px) and (max-width: 1033px) {
   .accordion {
-    height: 90px;
+    height: 85px;
   }
 }
 
-@media (max-width: 629px) {
+@media (min-width: 549px) and (max-width: 996px) {
   .accordion {
-    height: 115px;
+    height: 65px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 548px) {
+  .accordion {
+    height: 85px;
   }
 }
 
 @media (max-width: 480px) {
+  .accordions {
+    padding:0px;
+    /*width: 100vw;*/
+    
+  }
+
   .accordion {
-    padding: 15px 20px 8px;
+    padding: 5px 5px 15px 10px;
+    height: 80px;
   }
   .title {
     font-size: 20px;
