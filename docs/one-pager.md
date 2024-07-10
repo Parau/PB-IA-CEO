@@ -12,7 +12,7 @@ Neste *one pager*, você encontrará um resumo do essencial sobre a IA Generativ
 <div class="accordions">
   <div class="accordion">
     <div class="title">
-## O que motivou a atual euforia com a IA?
+ ## O que motivou a atual euforia com a IA?
     </div>
     <div class="text">
       <p>
@@ -23,7 +23,7 @@ Neste *one pager*, você encontrará um resumo do essencial sobre a IA Generativ
 
   <div class="accordion">
     <div class="title">
-## Mas foi de uma hora para outra?
+## Isso aconteceu de uma hora para outra?
     </div>
     <div class="text">
       <p>Esse momento foi preparado por décadas de avanços tecnológicos:</p>
