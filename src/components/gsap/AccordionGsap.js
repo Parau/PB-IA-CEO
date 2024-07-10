@@ -25,11 +25,16 @@ const AccordionGsap = () => {
     // Select all the accordion elements
     const accordions = document.querySelectorAll('.accordion');
 
+    //Obtem o tamanho atual do accordion conforme tela atual
+    const myDiv = document.querySelector(".accordion:nth-child(1)");
+    const divHeight = myDiv.offsetHeight;
+    //console.log("Div height:", divHeight);
+
     // Loop through each accordion and create a ScrollTrigger for each
     accordions.forEach((accordion, index) => {
       gsap.fromTo(accordion, 
         {
-          height: 65 // Initial height
+          height: divHeight // Inicia animação com o tamanho atual da div conforme css
         },
         {
           height: 'auto', // Final height
