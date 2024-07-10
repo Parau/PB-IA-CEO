@@ -31,6 +31,14 @@
   text-align: inherit;
   text-transform: inherit;
   color: inherit;
+
+  /* Browser prefixes */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-text-size-adjust: inherit;
+  -ms-text-size-adjust: inherit;
+  -webkit-font-kerning: inherit;
+  font-kerning: inherit;
 }
 
 .text-highlight.active  {
