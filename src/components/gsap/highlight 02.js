@@ -10,15 +10,15 @@ gsap.registerPlugin(ScrollTrigger);
 const Highlight = () => {
 
   useGSAP(() => {
+    
+    const highlight = document.getElementById("highlight-style");
     //const mode = useColorMode;
     
     gsap.registerPlugin(ScrollTrigger);
-
-    // Criar uma timeline para controlar a ordem das animações
-    const timeline = gsap.timeline();
     
-    gsap.utils.toArray(".text-highlight").forEach((highlight, index) => {
-        ScrollTrigger.create({
+    gsap.utils.toArray(".text-highlight").forEach((highlight) => {
+      console.log('highlight '+highlight);
+      ScrollTrigger.create({
         trigger: highlight,
         start: "100px bottom",
         onEnter: () => {
@@ -28,8 +28,21 @@ const Highlight = () => {
       });
     });
     
+    //const setHighlightStyle = (value) =>
+    //  document.body.setAttribute("data-highlight", value);
+    
+    //mode.addEventListener("click", (e) =>
+    //  document.body.classList.toggle("dark-mode")
+    //);
+    
+    //highlight.addEventListener("change", (e) => setHighlightStyle(e.target.value));
+    
+    //setHighlightStyle(highlight.value);
+
   }
 ); // <-- scope is for selector text (optional)
+
+  
 
   // Renderizar o componente
   return (

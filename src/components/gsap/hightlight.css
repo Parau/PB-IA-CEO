@@ -18,7 +18,7 @@
   transition: color calc(2s / 4) cubic-bezier(0.25, 1, 0.5, 1),
     background-color calc(2s / 4) cubic-bezier(0.25, 1, 0.5, 1),
     background-size 2s cubic-bezier(0.25, 1, 0.5, 1);
-  background-image: linear-gradient( white 60%, gold 40%);
+  background-image: linear-gradient( white 65%, hsla(54, 99%, 51%, 0.708) 35%);
 
   /* Explicitly inherit font properties from parent */
   font-size: inherit;
