@@ -52,7 +52,8 @@ Neste *one pager*, você encontrará um resumo do essencial sobre a IA Generativ
     </div>
     <div class="text">
       <p>
-      Os sistemas de IA geradores de texto, como o ChatGPT, são construídos sobre modelos de linguagem de grande escala (LLMs – *Large Language Models*). LLMs treinam em vastos corpora de dados para responder perguntas ou realizar tarefas com base em probabilidades estatísticas, prevendo a próxima palavra ou saída mais provável.
+      Os sistemas de inteligência artificial geradores de texto, como o ChatGPT, são baseados em modelos de linguagem de grande escala (LLMs – *Large Language Models*). Esses LLMs são treinados em extensos conjuntos de dados para responder a perguntas ou realizar tarefas, utilizando probabilidades estatísticas para prever a próxima palavra ou a saída mais provável.
+      Em termos práticos, esses modelos analisam grandes volumes de texto para aprender padrões e contextos linguísticos. Isso permite que eles processem e gerem texto de maneira coerente e relevante.
       </p>
     </div>
   </div>

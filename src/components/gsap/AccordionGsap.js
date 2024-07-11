@@ -19,7 +19,7 @@ const AccordionGsap = () => {
     
     const navbar = document.querySelector('nav');
     //define o topo do accordions baseado na altura do navbar docusaurus
-    const start = "top "+(navbar.offsetHeight+5)+"px";
+    const start = "top "+(navbar.offsetHeight+155)+"px";
 
 
     // Select all the accordion elements
