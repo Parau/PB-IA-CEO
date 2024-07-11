@@ -11,16 +11,17 @@ const Highlight = () => {
 
   useGSAP(() => {
     //const mode = useColorMode;
-    
     gsap.registerPlugin(ScrollTrigger);
 
     // Criar uma timeline para controlar a ordem das animações
     const timeline = gsap.timeline();
-    
+
+    const viewportHeight = window.innerHeight;
+    const start = Math.trunc(viewportHeight/2) + 'px bottom';
     gsap.utils.toArray(".text-highlight").forEach((highlight, index) => {
         ScrollTrigger.create({
         trigger: highlight,
-        start: "100px bottom",
+        start: start,
         onEnter: () => {
           //console.log('onenter: '+highlight);
           highlight.classList.add("active")

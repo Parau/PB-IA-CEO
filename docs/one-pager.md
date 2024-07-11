@@ -126,6 +126,6 @@ Neste *one pager*, você encontrará um resumo do essencial sobre a IA Generativ
 
 </div>
 <br />
-A empolgação em torno da IA generativa está no auge! Mas, com essa empolgação vem um risco real: como equilibrar a necessidade de inovação com a prudência nos investimentos? Esse desafio é o tema do próximo capítulo.
+A empolgação em torno da IA generativa está no auge! Mas, com esse entusiasmo vem um risco real: como equilibrar a necessidade de inovação com a prudência nos investimentos? Esse desafio é o tema do próximo capítulo.
 </div>
 
