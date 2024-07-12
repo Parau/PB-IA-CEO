@@ -9,7 +9,7 @@
 }*/
 
 
-.text-highlight {
+.text-highlight, .text-highlight-end  {
   /*all: unset;*/
   /*display: inline-block;*/ /* Ensure the padding is applied correctly */
   padding: 0.05em 0.15em 0.15em 0.25em; /* Adjust the padding as needed to increase the background height */
@@ -41,7 +41,7 @@
   font-kerning: inherit;
 }
 
-.text-highlight.active  {
+.text-highlight.active, .text-highlight-end.active  {
     color: hsl(192, 14%, 0%);
     background-size: 100% 100%;
 }

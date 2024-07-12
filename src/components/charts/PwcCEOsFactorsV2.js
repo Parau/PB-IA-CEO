@@ -71,7 +71,7 @@ const PwcCEOsFactors = () => {
       <br /><div className="bar" data-percentage="27" style={{ ...commonStyle  }}>27%</div>
       Mudanças demográficas: 
       <br /><div className="bar" data-percentage="27" style={{ ...commonStyle  }}>27%</div>
-      <div style={{ textAlign: 'center', fontSize: 'calc(100% - 20%)' }}>Source: PwC's 27th Annual Global CEO Survey</div>
+      <div style={{ textAlign: 'center', fontSize: 'calc(100% - 20%)' }}>Source: PwC's 27th Annual Global CEO Survey.</div>
       <br />
     </div>
   );

@@ -80,7 +80,5 @@ Vamos começar a estruturar o processo de implementação da IA em sua organiza�
 </center>
 
 ## Primeiro passo
-Antes de detalhar o processo de implantação da IA delineado no diagrama acima (Entender, Mapear, Priorizar e Implantar), é importante apresentar <spam class="text-highlight">uma ação essencial que deve preceder qualquer iniciativa relacionada à IA na organização</spam>. Esta fase de preparação fundamental é o ponto de partida indispensável, mesmo se sua organização já tiver iniciado a implantação da IA.
-<br />
-<br />
-<br />
+Antes de detalhar o processo de implantação da IA delineado no diagrama acima (Entender, Mapear, Priorizar e Implantar), é importante apresentar <spam class="text-highlight-end">uma ação essencial que deve preceder qualquer iniciativa relacionada à IA na organização</spam>. Esta fase de preparação fundamental é o ponto de partida indispensável, mesmo se sua organização já tiver iniciado a implantação da IA.
+
