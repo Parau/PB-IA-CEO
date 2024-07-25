@@ -31,23 +31,4 @@ Os exemplos de viés que apresentei acima podem fazer você pensar que esse risc
 
 **Eficiência Operacional**: Vieses podem impactar a eficiência operacional, como em processos de recrutamento, resultando na contratação de candidatos que não são os mais adequados para a empresa. 
 
-Compreender como a IA funciona é essencial para reconhecer como o viés pode ser introduzido e propagado nos sistemas de IA. Neste tópico, apresento de maneira prática como os dados podem influenciar os resultados de um modelo de IA. Meu objetivo é desmistificar a tecnologia e fornecer *insights* claros que permitirão a você implementar a IA em sua organização de forma responsável e sustentável, mitigando riscos e maximizando benefícios.
-
-# Uma loja de sorvetes
-Sim. O título deste tópico está certo. Organizei este exemplo com um mínimo de variáveis para que você possa literalmente ver o viés atuando em um modelo de *machine learning*.
-
-O contexto é o de um proprietário de uma loja de sorvetes que encomendou o desenvolvimento de um sistema de IA para prever a quantidade de sorvetes vendidos, com base na temperatura máxima do dia e no histórico de vendas.
-
---> exemplo usando os "sorvetes" no observable. Alterar o observable abaixo para que permita ao leitor alterar um dos dados do treinamento relacionado a quantidade de sorvetes vendidos no dia. O exemplo mostra os dados de treinamento, uma tabela com as previsões, o gráfico com o resultado e um slider para alterar uma das linhas da tabela de dados usados para o treinamento do modelo.
-<iframe width="100%" height="618.234375" frameborder="0"
-  src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b?cells=viewof+polynome_degree%2CGrafico"></iframe>
-
-# Detecção de cancer de pele
-Peço desculpas se este assunto é sensível para você. Fique a vontade para pular este tópico e seguir no curso. Mas penso este caso este ser emblemático. Um artigo publicado na revista Nature em 2017 apresentou um trabalho de pesquisa em que foi desenvolvido um sistema de IA que atingiu um nível de precisão comparável ao de dermatologistas humanos no diagnóstico de lesões malignas da pele. O artivo informou que o sistema foi treinado usando um conjunto de dados de quase 130 mil imagens clínicas. Sem dúvida, uma ótima notícia.
-
-Entretanto, após a publicação, os autores do estudo notaram a existência de viés no modelo treinado. O sistema era mais propenso a detectar a ocorrência de cancer se a imagem apresentada ao sistema, ou seja a foto da pele do paciente analisado, incluísse um régua na imagem. Por que?  As imagens médicas de lesões cancerígenas costumam incluir uma régua para fins de escala. Nas não canceríginas não há a preocupação de incluir na imagem a regua para ajudar no controle.  Como resultado, no treinamento o modelo aprendeu a identificar a presença da régua como um indicador importante de malignidade.
-
-Em um novo artigo publicado pelos pesquisadores no ano seguinte eles comentaram sobre os riscos do viés:
-
->Por exemplo, em nosso trabalho, observamos que o algoritmo parecia ter maior probabilidade de interpretar imagens com réguas como malignas. Por quê? Em nosso conjunto de dados, imagens com réguas eram mais propensas a serem malignas; assim, o algoritmo inadvertidamente “aprendeu” que réguas são malignas. Esses vieses em modelos de IA são inerentes, a menos que se dê atenção específica para lidar com entradas com variabilidade. Uma abordagem alternativa é incorporar padrões rigorosos e/ou hardware que permita a padronização das fotos, mas isso reduz o potencial de escalabilidade. 
-
+Compreender como a IA funciona é essencial para reconhecer como o viés pode ser introduzido e propagado nos sistemas de IA. Na próxima seção, apresento de maneira prática como os dados podem influenciar os resultados de um modelo de IA. Meu objetivo é desmistificar a tecnologia e fornecer *insights* claros que permitirão a você implementar a IA em sua organização de forma responsável e sustentável, mitigando riscos e maximizando benefícios.
