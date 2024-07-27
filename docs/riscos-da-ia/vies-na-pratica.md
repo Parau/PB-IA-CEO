@@ -30,7 +30,7 @@ Ainda sobre o diagrama, observe que, segundo os dados históricos da sorveteria 
 
 Experimente ajustar o controle abaixo e veja como isso altera o treinamento do modelo.
 <iframe width="100%" height="633" frameborder="0"
-  src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b@1392?cells=viewof+temperatura32%2CGrafico"></iframe>
+  src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b@1396?cells=viewof+temperatura32%2CGrafico"></iframe>
 Percebeu como um dado excepcional pode impactar o modelo? Seja um evento especial de vendas ou um erro na coleta de dados. Um valor discrepante (*outlier*) influenciao desempenho do modelo. Se a exceção for muito maior que a realidade, o modelo tenderá a um viés otimista nas vendas.
 
 Na seção anterior, mencionei o caso da Amazon, que enfrentou problemas com sua ferramenta de recrutamento baseada em IA. A empresa usou a IA para avaliar currículos, mas em 2015 descobriu que o sistema não classificava candidatos para cargos técnicos de forma neutra em termos de gênero. Isso ocorreu porque os modelos da Amazon foram treinados com dados históricos, que refletiam uma predominância masculina no setor de tecnologia. O sistema acabou favorecendo candidatos do sexo masculino e penalizando currículos que mencionavam "mulheres" ou instituições exclusivamente femininas.

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-import ChatGPTWelcome from '@site/static/img/docs/welcome.jpg';
+import ChatGPTWelcome from '@site/static/img/docs/boas-vindas-ChatGPT.jpg';
 
 # Alucinações
 Após o lançamento da versão GPT-4o, um colega propôs um desafio visual a essa nova versão do ChatGPT: analisar a foto de uma estátua recém-inaugurada. A resposta peculiar da IA chamou minha atenção. Registrei essa experiência para compartilhar neste curso de IA, pois revela de forma vívida as nuances da inteligência artificial em ação.
