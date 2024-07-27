@@ -7,7 +7,7 @@ const BoasVindasChatGPT = () => {
   const animaGPTRef = useRef(null);
 
   const props = useSpring({
-    x: isAnimated ? 20 : -200, 
+    x: isAnimated ? 200 : -200, 
     //loop: true,
     config: { mass: 1, friction: 15, tension: 200 },
   });
@@ -17,7 +17,7 @@ const BoasVindasChatGPT = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsAnimated(true);
-        }
+        } 
       },
       {
         threshold: 0.5, // Trigger when 10% of the element is visible
@@ -38,10 +38,13 @@ const BoasVindasChatGPT = () => {
   }, []);
 
   return (
-    <center>
-      <svg width={378+130} height={800}>
-        <image href={ChatGPTWelcome} width={378} height={800} x={130}/>
-        <g transform="scale(0.5) translate(0, 870)">
+    <div style={{ maxWidth: '100%', margin: 'auto', textAlign: 'center' }}>
+      <svg width="100%"
+        height="auto"
+        viewBox="0 0 508 533"
+        preserveAspectRatio="xMidYMid meet">
+        <image href={ChatGPTWelcome} width={252} height={533} x={130}/>
+        <g transform="scale(0.3) translate(0, 970)">
           { isAnimated &&
             <animated.g style={{ transform: props.x.interpolate(x => `translateX(${x}px)`) }}>
               <path
@@ -54,7 +57,7 @@ const BoasVindasChatGPT = () => {
         </g>
       </svg>
       <span id="animaGPT" ref={animaGPTRef}></span>
-    </center>
+    </div>
   );
 };
 export default BoasVindasChatGPT;
