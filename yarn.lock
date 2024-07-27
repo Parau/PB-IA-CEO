@@ -7641,6 +7641,11 @@ react-player@^2.16.0:
     prop-types "^15.7.2"
     react-fast-compare "^3.0.1"
 
+react-responsive-embed@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-responsive-embed/-/react-responsive-embed-2.1.0.tgz#e61c5360e4cc783eeda56ef0d1751420736065f6"
+  integrity sha512-GzvZ8i1ZRL4YRaTOfIeka5CQSc7mCIZVa0C7brJoA55EQ0A+EsFQT1YOvFVzKOVP33UqoKNMijI1PQ7UtO1Eeg==
+
 react-router-config@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/react-router-config/-/react-router-config-5.1.1.tgz#0f4263d1a80c6b2dc7b9c1902c9526478194a988"

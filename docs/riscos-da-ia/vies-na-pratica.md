@@ -3,6 +3,7 @@ sidebar_position: 3
 ---
 import ReactPlayer from 'react-player'
 import LigaHighlight from '@site/src/components/gsap/highlight'
+import ResponsiveIframe from 'react-responsive-embed';
 
 # Dados e viés
 <LigaHighlight />
@@ -21,16 +22,20 @@ No vídeo, utilizei a experimentação para encontrar a posição ideal da linha
 
 Embora a experimentação seja uma prática comum para desenvolvedores de IA, há técnicas específicas para calcular a posição mais precisa da linha. Para facilitar sua interação com o modelo, criei uma ferramenta que realiza esse cálculo automaticamente. Utilizei a técnica de mínimos quadrados, um método estatístico para determinar a linha de regressão. No diagrama abaixo, a linha pontilhada laranja ilustra essa regressão.
 
-<iframe width="100%" height="550" frameborder="0"
-  src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b@1392?cells=GraficoComLinhaCalculada"></iframe>
+
+<ResponsiveIframe style={{overflow: 'hidden'}}
+    src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b@1392?cells=GraficoComLinhaCalculada"
+    ratio='4:3'/>
 
 O objetivo aqui não é detalhar o processo matemático, mas permitir que você interaja com o modelo e observe como o viés pode afetar os resultados. O diagrama acima usa os mesmos dados apresentados no vídeo. Por exemplo, para um dia com temperatura máxima de 33°C, o modelo estima a venda de cerca de 204 sorvetes.
 
 Ainda sobre o diagrama, observe que, segundo os dados históricos da sorveteria da Sofia, em um dia com 32°C foram vendidos 180 sorvetes. Agora, imagine um cenário excepcional, como uma promoção de 80% de desconto ou uma notícia viral sobre a longevidade associada ao consumo de sorvetes artesanais de limão 😱. Ou mesmo um erro na coleta de dados. Suponha que, em um dia de 32°C, fossem vendidos 350 sorvetes ao invés dos 180 registrados. Como isso afetaria nosso modelo?
 
 Experimente ajustar o controle abaixo e veja como isso altera o treinamento do modelo.
-<iframe width="100%" height="633" frameborder="0"
-  src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b@1396?cells=viewof+temperatura32%2CGrafico"></iframe>
+<ResponsiveIframe  style={{overflow: 'hidden'}}
+    src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b@1396?cells=viewof+temperatura32%2CGrafico"
+    ratio='12:10'/>
+
 Percebeu como um dado excepcional pode impactar o modelo? Seja um evento especial de vendas ou um erro na coleta de dados. Um valor discrepante (*outlier*) influenciao desempenho do modelo. Se a exceção for muito maior que a realidade, o modelo tenderá a um viés otimista nas vendas.
 
 Na seção anterior, mencionei o caso da Amazon, que enfrentou problemas com sua ferramenta de recrutamento baseada em IA. A empresa usou a IA para avaliar currículos, mas em 2015 descobriu que o sistema não classificava candidatos para cargos técnicos de forma neutra em termos de gênero. Isso ocorreu porque os modelos da Amazon foram treinados com dados históricos, que refletiam uma predominância masculina no setor de tecnologia. O sistema acabou favorecendo candidatos do sexo masculino e penalizando currículos que mencionavam "mulheres" ou instituições exclusivamente femininas.
