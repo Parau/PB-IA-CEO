@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 # Viés
 Uma expressão popular entre os primeiros desenvolvedores de sistemas décadas atrás dizia: "lixo entra, lixo sai". Isso se refere ao conceito de que dados de entrada defeituosos ou sem sentido em sistemas computacionais resultam em saídas igualmente deficientes, independentemente da qualidade do sistema em si. Esse mesmo princípio se aplica ao treinamento de IA: a qualidade do modelo é tão boa quanto os dados usados para treiná-lo. Se os dados de entrada forem tendenciosos, incompletos ou de má qualidade, isso resultará em um sistema de IA com saídas enviesadas ou imprecisas. Portanto, garantir dados de treinamento de alta qualidade e representatividade é essencial para o desenvolvimento de modelos de IA eficazes.

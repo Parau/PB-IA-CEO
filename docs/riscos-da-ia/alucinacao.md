@@ -1,19 +1,25 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
-import ChatGPTWelcome from '@site/static/img/docs/boas-vindas-ChatGPT.jpg';
+import LigaHighlight from '@site/src/components/gsap/highlight'
+import BoasVindasChatGPT from '@site/src/components/BoasVindasChatGPTAlucina'
+import ReactPlayer from 'react-player'
+
 
 # Alucinações
-Após o lançamento da versão GPT-4o, um colega propôs um desafio visual a essa nova versão do ChatGPT: analisar a foto de uma estátua recém-inaugurada. A resposta peculiar da IA chamou minha atenção. Registrei essa experiência para compartilhar neste curso de IA, pois revela de forma vívida as nuances da inteligência artificial em ação.
+Após o lançamento da versão GPT-4o, um colega propôs um desafio visual a essa nova versão do ChatGPT: analisar a foto de uma estátua recém-inaugurada. A resposta peculiar da IA chamou minha atenção. Registrei essa experiência para compartilhar neste capítulo, pois revela de forma vívida as nuances da inteligência artificial em ação.
 
-# GRAVAÇÃO PRAÇA ATLETICO
---> video 
+<center>
+<ReactPlayer url='https://youtu.be/l_N_XcEU71s' controls='true' />
+</center>
+<br />
+No vídeo, uma estátua de bronze de um jogador de futebol está posicionada em frente ao Estádio Joaquim Américo, casa do Clube Atlético Paranaense. Na primeira pergunta, o ChatGPT descreve corretamente a estátua, mencionando os detalhes visuais e a localização, mas erra ao identificar o atleta, chamando-o de Alex. Esse tipo de erro, conhecido como alucinação, ocorre quando o modelo gera informações incorretas ou inventadas.
+
+Na segunda pergunta, com novas orientações específicas indicando que o atleta é o maior artilheiro da história do clube, o ChatGPT corrige a resposta e identifica corretamente o jogador. Esse exemplo mostra como fornecer informações adicionais pode ajudar o modelo a gerar respostas mais precisas.
 
 Algum tempo depois, repeti a mesma pergunta e o ChatGPT forneceu a resposta correta. Isso ilustra duas coisas: primeiro, como as ferramentas de IA passam por ajustes constantes baseados nas interações com os usuários; e segundo, o risco de que, devido à forma convincente como os modelos de linguagem geram texto, possamos acreditar em respostas incorretas.
 
-O caso registrado acima não gerou nenhuma consequência significativa, apenas uma troca de mensagens no WhatsApp entre amigos comentando o ocorrido. Ou, quem sabe, tenha gerado um número suficiente de "respostas insatisfatórias" que ajudaram o ChatGPT a ajustar sua resposta.
-
-Mas não foi este o caso da AirCanada e do escritório de advocacia Levidow, Levidow & Oberman...
+No caso registrado, o ocorrido não gerou consequências significativas além de uma troca de mensagens no WhatsApp entre amigos comentando o erro. No entanto, casos como os da Air Canada e do escritório de advocacia Levidow, Levidow & Oberman, descritos a seguir, mostram que erros em respostas de IA podem ter implicações mais sérias.
 
 ## Erro do ChatBot da Air Canada
 No tribunal de resoluções civis da Colúmbia Britânica, a companhia aérea Air Canada foi considerada responsável por seu chatbot dar conselhos errados a um passageiro. Em 2022, o chatbot da Air Canada prometeu um desconto que não estava disponível para o passageiro Jake Moffatt, que foi assegurado de que poderia reservar um voo com tarifa integral para o funeral de sua avó e depois solicitar uma tarifa de luto após o fato. 
@@ -39,10 +45,7 @@ O termo "alucinação" é usado porque, assim como uma alucinação em seres hum
 # Por que a ferramenta alucina?
 Ferramentas baseadas em IA, como o ChatGPT, funcionam prevendo probabilidades de sequências de palavras. Cada palavra gerada é escolhida com base nas probabilidades calculadas a partir do texto atual. Quando o modelo faz uma previsão errada ou menos provável, pode resultar em uma "alucinação", ou seja, uma resposta que não é factualmente correta.
 
-
-<img src={ChatGPTWelcome} class='img-limit' />
-Marcar parte "alucinação"
-
+<BoasVindasChatGPT />
 
 O ChatGPT foi treinado em vastos conjuntos de dados de texto, onde aprendeu padrões estatísticos e associações. No entanto, quando confrontado com perguntas ambíguas, incomuns ou com informações insuficientes nos dados de treinamento, a certeza sobre a próxima palavra a ser gerada diminui. Isso significa que a distribuição de probabilidade das possíveis próximas palavras se torna mais dispersa (menos concentrada em uma única palavra).
 
