@@ -68,17 +68,17 @@ Ter uma resposta clara para 'Quais problemas ou oportunidades queremos abordar c
 Nos próximos capítulos vou sugerir um processo de como priorizar e o passo a passo para a sua implantação.  
 </details>
 
-## Processo de impementação da IA
+## Jornada da IA
 Neste capítulo, discutimos a importância de <spam class="text-highlight">equilibrar a adoção de novas tecnologias</spam>, evitando tanto a obsolescência quanto os investimentos excessivos e mal direcionados. Destacamos a necessidade de os executivos <spam class="text-highlight">entenderem o funcionamento</spam> da tecnologia e estabelecerem um <spam class="text-highlight">processo</spam> racional para a escolha dos projetos, prevenindo que o entusiasmo ou histórias de sucesso resultem em decisões precipitadas.
 
 O conhecimento técnico e estratégico, aliado a uma abordagem racional, garantirá que os investimentos em novas tecnologias proporcionem retornos significativos e <spam class="text-highlight">sustentáveis</spam>. Nos próximos capítulos, exploraremos detalhadamente como implementar essas estratégias de maneira prática, assegurando que sua organização esteja bem posicionada para aproveitar as oportunidades oferecidas pela IA.
 
-Vamos começar a estruturar o processo de implementação da IA em sua organização. Veja o diagrama:
+Vamos começar a estruturar o processo de implementação da IA em sua organização. Veja o diagrama com a jornada necessária para a adoção da IA em sua organização de forma sustentável e responsável:
 
 <center>
 ![Fluxo implantação IA](diagrama-o-desafio.svg)
 </center>
 
 ## Primeiro passo
-Antes de detalhar o processo de implantação da IA delineado no diagrama acima (Entender, Mapear, Priorizar e Implantar), é importante apresentar <spam class="text-highlight-end">uma ação essencial que deve preceder qualquer iniciativa relacionada à IA na organização</spam>. Esta fase de preparação fundamental é o ponto de partida indispensável, mesmo se sua organização já tiver iniciado a implantação da IA.
+A jornada de adoção da IA em sua organização deve começar com <spam class="text-highlight-end">uma ação essencial que precede qualquer outra iniciativa relacionada à IA</spam>. Este **ponto de partida** é fundamental e deve ser considerada mesmo que sua organização já tenha iniciado o processo de integração da IA.
 

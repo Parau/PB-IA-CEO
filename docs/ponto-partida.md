@@ -6,6 +6,13 @@ import McKinseyNegativeExperience from '@site/src/components/charts/McKinseyNega
 
 # Ponto de partida
 <LigaHighlight />
+<center>
+![Fluxo implantação IA](diagrama-o-desafio.svg)
+
+**MARCAR O PONTO DE PARTIDA NA IMAGEM**
+</center>
+
+
 Thierry Garnier, CEO da Kingfisher, descreve como sua empresa se adaptou à GenAI: 
 >*No início, <spam class="text-highlight">restringimos todo o acesso ao ChatGPT</spam> e a modelos de linguagem grandes similares, e recebemos muitas reclamações. Mas é preciso confiar nas pessoas e ter princípios claros. Então, trabalhamos em conjunto entre funções, incluindo RH e TI, e <spam class="text-highlight">gradualmente</spam> fornecemos acesso, estabelecemos regras e oferecemos treinamento obrigatório sobre as melhores práticas e perigos - e esses princípios nos permitiram ter um caminho a seguir.*
 
@@ -26,10 +33,5 @@ Para reforçar esse ponto, trago mais alguns dados levantados pela McKinsey: 44%
 ### Definindo Políticas de Uso e Capacitação em IA: O Ponto de Partida para o Sucesso
 Definir uma política de uso da IA e capacitar adequadamente os colaboradores é uma <spam class="text-highlight">necessidade estratégica</spam>. Com a proliferação de ferramentas de IA generativa no ambiente de trabalho, as empresas devem estabelecer diretrizes claras e programas de capacitação para garantir uma adoção segura, ética e alinhada aos objetivos organizacionais.
 
-Com base nisso, vou incluir um item chamado <spam class="text-highlight">Ponto de Partida</spam> em nosso diagrama do processo de implementação da IA.
-<center>
-![Fluxo implantação IA](diagrama-ponto-partida.svg)
-</center>
-
 ## Como a IA funciona?
-Com o nosso diagrama de processo atualizado, podemos iniciar a nossa jornada de implantação da IA. <spam class="text-highlight-end">O primeiro passo é entender como a IA funciona</spam>. No próximo capítulo, vamos desvendar os segredos por trás das capacidades revolucionárias da IA. Não perca a chance de acessar um conteúdo exclusivo e obter uma visão privilegiada de como essa ideia simples está moldando o mundo ao nosso redor. Compreender os bastidores da IA, conhecimento atualmente dominado por poucos, permitirá que você aproveite ao máximo essa tecnologia inovadora.
+O próximo passo da jornada de adoção da IA consiste em <spam class="text-highlight-end">entender como a IA funciona</spam>. No próximo capítulo, vamos desvendar os segredos por trás das capacidades revolucionárias da IA. Não perca a chance de acessar um conteúdo exclusivo e obter uma visão privilegiada de como essa tecnologia está moldando o mundo ao nosso redor. Compreender os bastidores da IA, conhecimento atualmente dominado por poucos, permitirá que você aproveite ao máximo essa tecnologia inovadora.
