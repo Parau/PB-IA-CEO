@@ -7,19 +7,21 @@ import ReactPlayer from 'react-player'
 
 
 # Alucinações
+Com o lançamento do GPT-4o, um colega propôs um desafio visual interessante: pedir ao ChatGPT que analisasse a foto de uma estátua recém-inaugurada. A resposta peculiar da IA chamou minha atenção, e decidi registrar essa experiência para compartilhar aqui, pois ela revela de forma vívida as nuances da inteligência artificial em ação.
+
 Após o lançamento da versão GPT-4o, um colega propôs um desafio visual a essa nova versão do ChatGPT: analisar a foto de uma estátua recém-inaugurada. A resposta peculiar da IA chamou minha atenção. Registrei essa experiência para compartilhar neste capítulo, pois revela de forma vívida as nuances da inteligência artificial em ação.
 
 <center>
 <ReactPlayer url='https://youtu.be/l_N_XcEU71s' controls='true' />
 </center>
 <br />
-No vídeo, uma estátua de bronze de um jogador de futebol está posicionada em frente ao Estádio Joaquim Américo, casa do Clube Atlético Paranaense. Na primeira pergunta, o ChatGPT descreve corretamente a estátua, mencionando os detalhes visuais e a localização, mas erra ao identificar o atleta, chamando-o de Alex. Esse tipo de erro, conhecido como alucinação, ocorre quando o modelo gera informações incorretas ou inventadas.
+No vídeo, uma estátua de bronze de um jogador de futebol está posicionada em frente ao Estádio Joaquim Américo, casa do Club Athletico Paranaense. No primeiro "desafio" proposto ao ChatGPT, a IA descreve corretamente a estátua, mencionando os detalhes visuais e a localização, mas comete um erro ao identificar o atleta, chamando-o de Alex. Esse erro é "imperdoável" para um torcedor atleticano, pois Alexandro de Souza foi formado nas categorias de base e atuou por muitos anos no rival Coritiba Foot Ball Club. Esse tipo de equívoco, conhecido como alucinação, ocorre quando o modelo gera informações incorretas ou inventadas.
 
-Na segunda pergunta, com novas orientações específicas indicando que o atleta é o maior artilheiro da história do clube, o ChatGPT corrige a resposta e identifica corretamente o jogador. Esse exemplo mostra como fornecer informações adicionais pode ajudar o modelo a gerar respostas mais precisas.
+Na segunda pergunta, após receber orientações mais específicas, indicando que o atleta em questão é o maior artilheiro da história do clube, o ChatGPT corrige sua resposta e identifica corretamente o jogador. Esse exemplo demonstra como fornecer informações contextuais relevantes pode ajudar o modelo a gerar respostas mais precisas.
 
-Algum tempo depois, repeti a mesma pergunta e o ChatGPT forneceu a resposta correta. Isso ilustra duas coisas: primeiro, como as ferramentas de IA passam por ajustes constantes baseados nas interações com os usuários; e segundo, o risco de que, devido à forma convincente como os modelos de linguagem geram texto, possamos acreditar em respostas incorretas.
+Alguns dias depois, repeti a mesma pergunta e o ChatGPT respondeu corretamente. Isso ilustra dois pontos: primeiro, que as ferramentas de IA são constantemente ajustadas com base nas interações dos usuários; e segundo, o risco de confiarmos em respostas incorretas, devido à maneira convincente como os modelos de linguagem geram texto.
 
-No caso registrado, o ocorrido não gerou consequências significativas além de uma troca de mensagens no WhatsApp entre amigos comentando o erro. No entanto, casos como os da Air Canada e do escritório de advocacia Levidow, Levidow & Oberman, descritos a seguir, mostram que erros em respostas de IA podem ter implicações mais sérias.
+Neste caso de identificação incorreta do jogador que descrevi, o erro não teve consequências relevantes, resultando apenas em uma troca de mensagens no WhatsApp entre amigos, comentando a situação. No entanto, os casos da Air Canada e do escritório de advocacia Levidow, Levidow & Oberman, que veremos a seguir, mostram que erros em respostas de IA podem ter implicações muito mais sérias.
 
 ## Erro do ChatBot da Air Canada
 No tribunal de resoluções civis da Colúmbia Britânica, a companhia aérea Air Canada foi considerada responsável por seu chatbot dar conselhos errados a um passageiro. Em 2022, o chatbot da Air Canada prometeu um desconto que não estava disponível para o passageiro Jake Moffatt, que foi assegurado de que poderia reservar um voo com tarifa integral para o funeral de sua avó e depois solicitar uma tarifa de luto após o fato. 
