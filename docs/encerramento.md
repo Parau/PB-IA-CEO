@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 12
 ---
 # Encerramento
 Gostaria de expressar meu sincero agradecimento a você por participar do curso de Inteligência Artificial para CEOs.
