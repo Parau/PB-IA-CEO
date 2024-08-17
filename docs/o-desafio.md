@@ -73,10 +73,10 @@ Neste capítulo, discutimos a importância de <spam class="text-highlight">equil
 
 O conhecimento técnico e estratégico, aliado a uma abordagem racional, garantirá que os investimentos em novas tecnologias proporcionem retornos significativos e <spam class="text-highlight">sustentáveis</spam>. Nos próximos capítulos, exploraremos detalhadamente como implementar essas estratégias de maneira prática, assegurando que sua organização esteja bem posicionada para aproveitar as oportunidades oferecidas pela IA.
 
-Vamos começar a estruturar o processo de implementação da IA em sua organização. Veja o diagrama com a jornada necessária para a adoção da IA em sua organização de forma sustentável e responsável:
+Vamos começar a estruturar o processo de implementação da IA em sua organização. Veja o diagrama com a jornada necessária para a adoção da IA de forma sustentável e responsável:
 
 <center>
-![Fluxo implantação IA](diagrama-o-desafio.svg)
+![Fluxo implantação IA](escada-adocao-ia.svg)
 </center>
 
 ## Primeiro passo

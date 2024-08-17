@@ -6,11 +6,7 @@ import McKinseyNegativeExperience from '@site/src/components/charts/McKinseyNega
 
 # Ponto de partida
 <LigaHighlight />
-<center>
-![Fluxo implantação IA](diagrama-o-desafio.svg)
-
-**MARCAR O PONTO DE PARTIDA NA IMAGEM**
-</center>
+![Fluxo implantação IA - Ponto de partida](processo-ponto-partida.svg)
 
 
 Thierry Garnier, CEO da Kingfisher, descreve como sua empresa se adaptou à GenAI: 
