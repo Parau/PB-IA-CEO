@@ -5,6 +5,9 @@ import AccordionGsap from '@site/src/components/gsap/AccordionGsap'
 
 # One Pager
 Neste *one pager*, você encontrará um resumo do essencial sobre a IA Generativa.
+<center>
+![Fluxo implantação IA](one-pager-geral.svg)
+</center>
 
 <AccordionGsap />
 
