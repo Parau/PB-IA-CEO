@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 # Grupo de trabalho
-<center>
-![Fluxo implantação IA](diagrama-mapear.svg)
-</center>
 O sucesso da implementação da IA na sua organização depende da identificação clara dos problemas específicos ou das oportunidades concretas que deseja resolver ou aproveitar com a IA. Sem essa clareza, corre-se o risco de desperdiçar recursos e não obter os resultados esperados.
 
  1. **Criar um grupo de pessoas que participarão de um processo de ideação:**
