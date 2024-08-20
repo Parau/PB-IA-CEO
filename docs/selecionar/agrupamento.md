@@ -35,6 +35,3 @@ Ao agrupar as iniciativas em Implementar, Remodelar e Inventar, você não apena
 Essa classificação não só facilita a implementação dos projetos, mas também permite que a organização acompanhe seu progresso e evolução no uso da IA. Por exemplo, em empresas que estão começando a utilizar IA, a expectativa é que os projetos se concentrem no grupo "Implementar". À medida que a organização ganha experiência, a quantidade de iniciativas no grupo "Implementar" tende a diminuir, enquanto aumentam as iniciativas nos grupos "Remodelar" e "Inventar".
 
 O conceito de Agrupamento de Projetos oferece um roteiro claro para a evolução do uso de IA dentro da empresa, ajudando a priorizar os esforços e maximizar os benefícios ao longo do tempo.
-<center>
-![Fluxo implantação IA](diagrama-priorizar-filtro.svg)
-</center>

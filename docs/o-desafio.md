@@ -80,5 +80,5 @@ Vamos começar a estruturar o processo de implementação da IA em sua organiza�
 </center>
 
 ## Primeiro passo
-A jornada de adoção da IA em sua organização deve começar com <spam class="text-highlight-end">uma ação essencial que precede qualquer outra iniciativa relacionada à IA</spam>. Este **ponto de partida** é fundamental e deve ser considerada mesmo que sua organização já tenha iniciado o processo de integração da IA.
+A jornada de adoção da IA em sua organização deve começar com <spam class="text-highlight-end">uma ação essencial que precede qualquer outra iniciativa relacionada à IA</spam>. Este **ponto de partida** é fundamental e deve ser consideradao mesmo que sua organização já tenha iniciado o processo de integração da IA.
 

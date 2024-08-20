@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 # Critérios
-<center>
-![Fluxo implantação IA](diagrama-priorizar.svg)
-</center>
 Ter uma resposta clara para "Quais problemas ou oportunidades queremos abordar com a IA?" é um passo essencial para o sucesso da implementação da IA na organização. A atividade de ideação apresentada anteriormente joga luz sobre essa questão. No entanto, para evitar vieses na escolha dos projetos, é importante realizar um processo de seleção e priorização baseado em critérios que maximizem o impacto e o retorno sobre o investimento. A seguir, apresento algumas ideias de como estabelecer critérios que podem guiar esse processo de seleção, visando escolhas estratégicas e alinhadas com os objetivos da empresa.
 
 ## Perguntas essenciais
