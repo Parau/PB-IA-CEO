@@ -51,19 +51,19 @@ Vamos a segunda pergunta:
 
 <FAIcon icon="fa-circle-question" size="1x" /> **Quais problemas ou oportunidades sua organização pretente abordar com a IA?**
 
-Ou em uma versão mais extensa da pergunta: Quais são os problemas específicos ou as oportunidades concretas sua organização está tentando resolver ou aproveitar com a implementação da IA?
+Ou em uma versão mais extensa da pergunta: Quais são os problemas específicos ou as oportunidades concretas sua organização está tentando resolver ou aproveitar com a adoção da IA?
 
 <details>
   <summary>Ainda não tenho as oportunidades e problemas mapeados!</summary>
 
-O sucesso da implementação da IA na sua organização depende da identificação clara dos problemas específicos ou das oportunidades concretas que deseja resolver ou aproveitar com a IA. Sem essa clareza, corre-se o risco de desperdiçar recursos e não obter os resultados esperados.
+O sucesso da adoção da IA na sua organização depende da identificação clara dos problemas específicos ou das oportunidades concretas que deseja resolver ou aproveitar com a IA. Sem essa clareza, corre-se o risco de desperdiçar recursos e não obter os resultados esperados.
 
 Nos próximos capítulos, sugerirei uma estratégia para realizar esse mapeamento, ajudando a identificar áreas críticas e oportunidades promissoras onde a IA pode trazer benefícios significativos.
 </details>
 <details>
   <summary>Já tenho mapeado os problemas e as oportunidades!</summary>
 
-Ter uma resposta clara para 'Quais problemas ou oportunidades queremos abordar com a IA?' é um passo essencial para o sucesso da implementação da IA na organização. Nos próximos capítulos, sugerirei um processo de priorização e um guia passo a passo para a implementação eficaz da IA, garantindo que você aproveite ao máximo essa tecnologia inovadora e obtenha os resultados desejados.
+Ter uma resposta clara para 'Quais problemas ou oportunidades queremos abordar com a IA?' é um passo essencial para o sucesso da adoção da IA na organização. Nos próximos capítulos, sugerirei um processo de priorização e um guia passo a passo para a implementação eficaz da IA, garantindo que você aproveite ao máximo essa tecnologia inovadora e obtenha os resultados desejados.
 
 Nos próximos capítulos vou sugerir um processo de como priorizar e o passo a passo para a sua implantação.  
 </details>
@@ -73,7 +73,7 @@ Neste capítulo, discutimos a importância de <spam class="text-highlight">equil
 
 O conhecimento técnico e estratégico, aliado a uma abordagem racional, garantirá que os investimentos em novas tecnologias proporcionem retornos significativos e <spam class="text-highlight">sustentáveis</spam>. Nos próximos capítulos, exploraremos detalhadamente como implementar essas estratégias de maneira prática, assegurando que sua organização esteja bem posicionada para aproveitar as oportunidades oferecidas pela IA.
 
-Vamos começar a estruturar o processo de implementação da IA em sua organização. Veja o diagrama com a jornada necessária para a adoção da IA de forma sustentável e responsável:
+Vamos começar a estruturar o processo de adoção da IA em sua organização. Veja o diagrama com a jornada necessária para a adoção da IA de forma sustentável e responsável:
 
 <center>
 ![Fluxo implantação IA](escada-adocao-ia.svg)

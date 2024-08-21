@@ -1,12 +1,10 @@
 ---
 sidebar_position: 3
 ---
-# Piloto
-Ao chegar à etapa de Piloto, a empresa já percorreu um caminho estratégico e bem-estruturado. A jornada começou com o **Ponto de Partida**, onde políticas de uso da IA foram definidas e os colaboradores foram capacitados. Passando pela fase de **Entender**, garantimos que a equipe tem uma compreensão clara de como a IA funciona, seus benefícios e limitações, permitindo o uso criativo e inovador da tecnologia. Em seguida, no **Mapear**, formamos um grupo de trabalho dedicado, preparamos a infraestrutura necessária e geramos ideias promissoras. Na fase de **Priorizar**, selecionamos as iniciativas de IA com maior potencial de impacto, alinhadas com os objetivos estratégicos da organização.
+# Pilotar
+![Fluxo adoção da IA - Implementar - Piloto](./ciclo/ciclo-implementar-pilotar.svg)
 
-## Objetivo da Etapa de Piloto
-
-A fase de Piloto é crucial para testar a solução de IA em um ambiente real, mas controlado. O objetivo é validar o desempenho operacional da solução, identificar ajustes necessários e coletar feedback dos usuários finais. Essa etapa serve como um "ensaio geral" antes da implementação em larga escala, garantindo que a solução seja robusta, eficaz e bem-recebida pelos usuários.
+A fase de Piloto é fundamental para testar a solução de IA em um ambiente real, porém controlado. Seu principal objetivo é validar o desempenho operacional, identificar ajustes necessários e coletar *feedback* dos usuários finais. Funciona como um 'ensaio geral' antes da implementação em larga escala, garantindo que a solução seja robusta, eficaz e bem-aceita. Além disso, o Piloto ajuda a identificar problemas de usabilidade, desempenho e adaptação ao ambiente operacional, o que é essencial para o sucesso da implantação em maior escala.
 
 ## Implementação do Piloto
 
@@ -32,4 +30,4 @@ A fase de Piloto é crucial para testar a solução de IA em um ambiente real, m
 ## Como continuar
 A fase de Piloto é um passo crítico na jornada de implementação da IA. Ela não só valida a viabilidade operacional da solução, mas também garante que a organização esteja preparada para escalar a solução com confiança. Com uma abordagem estruturada e um foco na coleta de feedback e melhorias contínuas, a fase de Piloto estabelece uma base sólida para o sucesso da IA na organização.
 
-Após a conclusão bem-sucedida da fase de Piloto, a solução estará pronta para ser **Escalada**. Essa etapa envolve a expansão da implementação para outras partes da organização, garantindo que a infraestrutura suporte a escala maior e que os usuários estejam adequadamente treinados. 
+Após a conclusão do piloto, a solução deve ser **Refinada** com base nos feedbacks e na análise dos dados operacionais coletados.

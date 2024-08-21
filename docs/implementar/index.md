@@ -20,7 +20,7 @@ Proponho o seguinte processo de implementação:
  1. **Novas Ideias**: A implementação e o monitoramento contínuos geram *insights* que podem inspirar novos projetos. Conforme as soluções de IA são implementadas e usadas, novas necessidades, oportunidades e ideias para otimização ou novos projetos tendem a surgir naturalmente.
 
 <center>
-![Ciclo - Implementar](ciclo-implementar.svg)
+![Ciclo - Implementar](./ciclo/ciclo-implementar.svg)
 </center>
 
 Utilizei o formato de ciclo contínuo para representar a natureza <spam class="text-highlight">iterativa e evolutiva</spam> do desenvolvimento e implementação de soluções de IA, destacando que o trabalho não se encerra após a implantação inicial. Soluções de IA, como outras tecnologias, exigem um compromisso contínuo: elas precisam ser adaptadas às mudanças no ambiente de negócios, corrigidas conforme surgem problemas, e otimizadas com base em novas informações e feedback. O ciclo se repete até que a solução seja substituída ou descontinuada.
