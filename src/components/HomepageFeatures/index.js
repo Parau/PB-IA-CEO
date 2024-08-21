@@ -46,7 +46,8 @@ const paragrafo = {
   marginLeft: '20px', /* Define a margem esquerda como 20 pixels */
   marginRight:'20px', /* Define a margem direita como 20 pixels */
   maxWidth: '640px',
-  margin: '0 auto 20px'
+  margin: '0 auto',
+  padding: '0 30px 0 30px'
 }
 
 export default function HomepageFeatures() {
