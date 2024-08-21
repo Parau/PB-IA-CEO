@@ -9,7 +9,7 @@ import LigaHighlight from '@site/src/components/gsap/highlight'
 Preparei um vídeo que apresenta os princípios de funcionamento da IA por meio de dois eventos importantes na sua evolução. Primeiro, falo sobre o Deep Blue, o famoso computador de xadrez da IBM que derrotou o campeão mundial Garry Kasparov em 1997. Em seguida, apresento o AlphaGo, um sistema de IA que superou os melhores jogadores de Go do mundo. Esses exemplos ilustram os <spam class="text-highlight">dois principais mecanismos de funcionamento da IA</spam>: o primeiro representa a abordagem dominante nas décadas de 80 e 90, enquanto o segundo mostra o mecanismo mais comum da IA nos dias de hoje.
 
 <center>
-<ReactPlayer url='https://youtu.be/4VzcWj2gFCU' controls='true' />
+<ReactPlayer url='https://youtu.be/4VzcWj2gFCU' width='100%' controls='true' />
 </center>
 <br />
 
