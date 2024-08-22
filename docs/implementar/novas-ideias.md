@@ -1,10 +1,13 @@
 ---
 sidebar_position: 8
 ---
+import LigaHighlight from '@site/src/components/gsap/highlight'
+
 # Novas ideias
+<LigaHighlight />
 ![Fluxo adoção da IA - Implementar](./ciclo/ciclo-implementar-novas-ideias.svg)
 
-A fase de **Novas Ideias** é uma extensão natural das etapas anteriores no ciclo de implementação de IA. Com a implementação e uso contínuo das soluções de IA, surgem novas necessidades e oportunidades, impulsionando a inovação e a expansão das capacidades da IA na organização.
+A fase de **Novas Ideias** é uma extensão natural das etapas anteriores no ciclo de implementação de IA. <spam class="text-highlight">Com a implementação e uso contínuo das soluções de IA</spam>, surgem novas necessidades e oportunidades, impulsionando a inovação e a expansão das capacidades da IA na organização.
 
 Esta fase promove um ciclo contínuo de descoberta e experimentação, permitindo a implementação de novas funcionalidades e aplicações. O objetivo é fomentar a criatividade, resolver desafios complexos e otimizar processos, além de criar novas oportunidades de negócio.
 

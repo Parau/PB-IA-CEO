@@ -60,7 +60,7 @@ export default function HomepageFeatures() {
             Quero dar boas-vindas ao <b>IA Estratégica:</b> <i>guia essencial para CEOs e Líderes</i>. 
             Meu objetivo com este guia é desmistificar a Inteligência Artificial, de forma objetiva, acessível e abrangente, 
             demonstrando como ela pode se tornar uma peça fundamental na estratégia da sua organização.</p>
-            <p>Explore todo o conteúdo do guia, <b><a href="docs/intro">navegando de forma sequencial</a></b> ou utilizando a estrutura apresentada abaixo.
+            <p>Explore todo o conteúdo do guia <b><a href="docs/intro">navegando de forma sequencial clicando aqui</a></b> ou utilizando o diagrama com os principais tópicos, apresentado a seguir.
             </p>
         </div>
         <center>

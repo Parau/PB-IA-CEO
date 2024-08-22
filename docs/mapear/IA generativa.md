@@ -2,18 +2,19 @@
 sidebar_position: 3
 slug: IA_generativa
 ---
+import LigaHighlight from '@site/src/components/gsap/highlight'
 
 # IA Generativa
+<LigaHighlight />
+Desde o lançamento do ChatGPT, o mundo tem testemunhado um crescente interesse no potencial transformador das tecnologias de Inteligência Artificial Generativa. Essa forma avançada de IA tem a capacidade única de criar conteúdos inéditos que se assemelham à qualidade e complexidade do trabalho humano, seja na forma de textos, imagens, códigos, áudios ou vídeos. Imagine poder gerar textos altamente acessíveis e relevantes para seus clientes, criar imagens realistas para simular produtos em ambientes domésticos, ou até mesmo desenvolver código em diversas linguagens de programação de forma autônoma.
 
- Desde o lançamento do ChatGPT, o mundo tem testemunhado um crescente interesse no potencial transformador das tecnologias de Inteligência Artificial Generativa. Essa forma avançada de IA tem a capacidade única de criar conteúdos inéditos que se assemelham à qualidade e complexidade do trabalho humano, seja na forma de textos, imagens, códigos, áudios ou vídeos. Imagine poder gerar textos altamente acessíveis e relevantes para seus clientes, criar imagens realistas para simular produtos em ambientes domésticos, ou até mesmo desenvolver código em diversas linguagens de programação de forma autônoma.
-
-O texto a seguir é longo, mas organizei ele em tópicos para que você possa navegar rapidamente nos itens do seu interesse.
+O texto a seguir é longo, mas <spam class="text-highlight">organizei ele em tópicos para que você possa navegar</spam> rapidamente nos itens do seu interesse.
 
 ### Como isso afeta a sua organização?
 
 A IA generativa é uma tecnologia emergente, mas as organizações já estão explorando uma variedade de casos de uso, alguns inovadores e amplamente aplicáveis. Isso inclui acelerar a criação de conteúdo e o desenvolvimento de software, melhorar o atendimento ao cliente por meio de interações personalizadas de autoajuda e chatbots, e desbloquear novas maneiras de explorar e analisar informações.
 
-Atualmente, a IA generativa demonstra sua versatilidade principalmente em seis áreas-chave:
+Atualmente, a <spam class="text-highlight">IA generativa demonstra sua versatilidade</spam> principalmente em seis áreas-chave:
 
 **Linguagem Escrita:** Produz textos com linguagem adequada e qualidade que atende às necessidades do usuário, ideal para resumos, materiais para clientes e simplificação de temas complexos.
 
@@ -27,7 +28,7 @@ Atualmente, a IA generativa demonstra sua versatilidade principalmente em seis �
 
 **3D:** Pode ajudar na criação de modelos tridimensionais para jogos ou simulações, além de desenvolver designs otimizados de produtos considerando não só a funcionalidade desejada ou a estética, mas também o uso eficiente de materiais.
 
-Compreender como a IA gera conteúdo para cada uma dessas áreas possibilita extrair maior valor dela em sua organização. A combinação dessas áreas pode gerar ainda mais valor. Por exemplo, o texto produzido por um *chatbot* pode ser transformado em áudio, e uma imagem gerada pode ser expandida para um vídeo.
+<spam class="text-highlight">Compreender</spam> como a IA gera conteúdo para cada uma dessas áreas possibilita <spam class="text-highlight">extrair maior valor</spam> dela em sua organização. A combinação dessas áreas pode gerar ainda mais valor. Por exemplo, o texto produzido por um *chatbot* pode ser transformado em áudio, e uma imagem gerada pode ser expandida para um vídeo.
 
 ## Marketing e Publicidade
 **Inteligência Artificial Generativa na Transformação de Marketing e Publicidade**

@@ -1,10 +1,13 @@
 ---
 sidebar_position: 3
 ---
+import LigaHighlight from '@site/src/components/gsap/highlight'
+
 # Pilotar
+<LigaHighlight />
 ![Fluxo adoção da IA - Implementar - Piloto](./ciclo/ciclo-implementar-pilotar.svg)
 
-A fase de Piloto é fundamental para testar a solução de IA em um ambiente real, porém controlado. Seu principal objetivo é validar o desempenho operacional, identificar ajustes necessários e coletar *feedback* dos usuários finais. Funciona como um 'ensaio geral' antes da implementação em larga escala, garantindo que a solução seja robusta, eficaz e bem-aceita. Além disso, o Piloto ajuda a identificar problemas de usabilidade, desempenho e adaptação ao ambiente operacional, o que é essencial para o sucesso da implantação em maior escala.
+A fase de Piloto é fundamental para <spam class="text-highlight">testar a solução de IA em um ambiente real, porém controlado</spam>. Seu principal objetivo é validar o desempenho operacional, identificar ajustes necessários e coletar *feedback* dos usuários finais. Funciona como um 'ensaio geral' antes da implementação em larga escala, garantindo que a solução seja robusta, eficaz e bem-aceita. Além disso, o <spam class="text-highlight">Piloto ajuda a identificar</spam> problemas de usabilidade, desempenho e adaptação ao ambiente operacional, o que é essencial para o sucesso da implantação em maior escala.
 
 ## Implementação do Piloto
 

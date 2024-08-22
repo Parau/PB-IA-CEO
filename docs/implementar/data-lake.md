@@ -1,17 +1,19 @@
 ---
 sidebar_position: 9
 ---
+import LigaHighlight from '@site/src/components/gsap/highlight'
+
 # Data Lake
+<LigaHighlight />
+Um elemento ausente no fluxo inicial deste capítulo é a construção de um Data Lake. <spam class="text-highlight">Embora possa ser opcional nas fases iniciais de adoção de IA, sua implementação torna-se essencial para organizações que buscam maximizar o valor de suas iniciativas.</spam> O Data Lake fornece a infraestrutura necessária para apoiar o crescimento, a eficiência e a inovação contínua baseada em dados. Detalharei sua importância na próxima seção.
 
-Um elemento ausente no fluxo inicial deste capítulo é a construção de um Data Lake. Embora possa ser opcional nas fases iniciais de adoção de IA, sua implementação torna-se essencial para organizações que buscam maximizar o valor de suas iniciativas. O Data Lake fornece a infraestrutura necessária para apoiar o crescimento, a eficiência e a inovação contínua baseada em dados. Detalharei sua importância na próxima seção.
+Acredito, e venho comentando ao longo deste guia, que a implementação da IA em uma organização <spam class="text-highlight">deve ser um processo gradual e estratégico.</spam> Gradual não significa necessariamente lento, mas sim um ritmo constante e evolutivo que permite à organização e sua infraestrutura se adaptarem adequadamente, criando uma base sólida para um crescimento contínuo e sustentável. Dessa forma, evitamos embarcar em projetos fadados ao fracasso devido à falta de experiência, recursos ou infraestrutura.
 
-Acredito, e venho comentando ao longo deste guia, que a implementação da IA em uma organização deve ser um processo gradual e estratégico. Gradual não significa necessariamente lento, mas sim um ritmo constante e evolutivo que permite à organização e sua infraestrutura se adaptarem adequadamente, criando uma base sólida para um crescimento contínuo e sustentável. Dessa forma, evitamos embarcar em projetos fadados ao fracasso devido à falta de experiência, recursos ou infraestrutura.
-
-Hoje, a IA generativa, especialmente os modelos de linguagem, oferece a possibilidade de obter resultados rápidos sem a necessidade de grandes investimentos em infraestrutura e capacitação. Isso permite que as organizações colham benefícios imediatos enquanto começam a organizar seus dados existentes, coletar novos dados e preparar sua infraestrutura para projetos de IA mais avançados. Esses projetos podem incluir a personalização da IA generativa com dados específicos da empresa ou o treinamento de modelos preditivos próprios.
+Hoje, a IA generativa, especialmente os modelos de linguagem, oferece a possibilidade de obter resultados rápidos sem a necessidade de grandes investimentos em infraestrutura e capacitação. <spam class="text-highlight">Isso permite que as organizações colham benefícios imediatos enquanto começam a organizar seus dados existentes,</spam> coletar novos dados e preparar sua infraestrutura para projetos de IA mais avançados. Esses projetos podem incluir a personalização da IA generativa com dados específicos da empresa ou o treinamento de modelos preditivos próprios.
 
 O objetivo é que, enquanto a organização ganha experiência prática com IA, ela também desenvolva uma política robusta de governança de dados e uma cultura organizacional orientada a dados. Paralelamente, é fundamental construir uma infraestrutura de armazenamento escalável, capaz de acomodar todos os dados estruturados e não estruturados da organização: o Data Lake.
 
-À medida que sua organização avança nos estágios iniciais de implementação da IA, a equipe de TI deve concentrar seus esforços nas seguintes áreas:
+À medida que sua organização <spam class="text-highlight">avança nos estágios iniciais de implementação da IA,</spam> a equipe de TI deve concentrar seus esforços nas seguintes áreas:
 
 - **Auditoria e Avaliação de Dados Existentes:**
 Realize uma auditoria abrangente para mapear onde os dados da organização estão armazenados, avaliando sua qualidade e relevância. Garanta que os dados sejam precisos e consistentes para que possam ser utilizados com eficácia em projetos de IA.

@@ -1,16 +1,19 @@
 ---
 sidebar_position: 5
 ---
+import LigaHighlight from '@site/src/components/gsap/highlight'
+
 # Escalar
+<LigaHighlight />
 ![Fluxo adoção da IA - Implementar](./ciclo/ciclo-implementar-escalar.svg)
 
-A fase de **Escala** marca o ápice de um processo de implementação de IA bem-planejado e executado. O objetivo é expandir a solução de IA para toda a organização, garantindo que a infraestrutura suporte essa ampliação e que a solução permaneça robusta. Essa etapa visa maximizar o impacto positivo da IA, permitindo à empresa colher os benefícios em maior escala e alcançar o ROI planejado.
+A fase de **Escala** marca o <spam class="text-highlight">ápice de um processo de implementação de IA bem-planejado e executado</spam>. O objetivo é expandir a solução de IA para toda a organização, garantindo que a infraestrutura suporte essa ampliação e que a solução permaneça robusta. Essa etapa visa maximizar o impacto positivo da IA, permitindo à organização colher os benefícios em maior escala e alcançar o ROI planejado.
 
 #### Implementação da fase Escalar
 
 1. **Planejamento Estratégico de Escala**:
    - **Análise de Capacidade**: Avaliar a capacidade da infraestrutura atual para suportar a expansão. Isso inclui recursos de TI, armazenamento de dados e capacidade de processamento.
-   - **Mapeamento de Impacto**: Identificar as áreas da empresa que serão mais impactadas pela expansão e desenvolver planos específicos para cada uma.
+   - **Mapeamento de Impacto**: Identificar as áreas da organização que serão mais impactadas pela expansão e desenvolver planos específicos para cada uma.
 
 2. **Preparação de Infraestrutura**:
    - **Aprimoramento de Infraestrutura**: Garantir que a infraestrutura de TI esteja preparada para suportar a solução em larga escala. Isso pode incluir upgrades de servidores, redes e sistemas de armazenamento.
@@ -29,15 +32,13 @@ A fase de **Escala** marca o ápice de um processo de implementação de IA bem-
    - **Aprimoramento Contínuo**: Incorporar melhorias contínuas com base nos dados e feedbacks coletados, garantindo que a solução permaneça eficiente e relevante.
 
 ## Implementação gradual
-A fase de **Escalar** representa o ápice de um processo meticuloso de implementação de IA, coroando os esforços com a expansão da solução para toda a organização. No entanto, acho importante reforçar a ideia de que essa expansão não precisa ser um evento único e abrangente. Reconheça a diversidade e a complexidade da sua organização, a escalabilidade gradual também é uma alternativa estratégica para maximizar o impacto da IA de forma sustentável.
+A fase de **Escalar** é o ápice de um processo meticuloso de implementação de IA, coroando os esforços com a expansão da solução para toda a organização. No entanto, é importante destacar que essa expansão <spam class="text-highlight">não precisa ocorrer de maneira única e abrangente</spam>. Considerando a diversidade e a complexidade da organização, uma escalabilidade gradual pode ser uma alternativa estratégica para maximizar o impacto da IA de forma sustentável.
 
-A fase de **Escalar** é o ápice de um processo meticuloso de implementação de IA, coroando os esforços com a expansão da solução para toda a organização. No entanto, é importante destacar que essa expansão não precisa ocorrer de maneira única e abrangente. Considerando a diversidade e a complexidade da organização, uma escalabilidade gradual pode ser uma alternativa estratégica para maximizar o impacto da IA de forma sustentável.
-
-Ao invés de uma abrupta mudança em larga escala, a escalabilidade gradual propõe a implementação da IA em ciclos estratégicos. Cada ciclo se concentra em áreas específicas da organização, permitindo um aprofundamento meticuloso das necessidades e desafios de cada setor. A escalabilidade gradual funciona como um ciclo virtuoso de aprendizado. Cada implementação em um novo ciclo oferece valiosos insights que aprimoram a solução de IA como um todo. Essa aprendizagem contínua garante que a solução se torne cada vez mais robusta e eficaz à medida que avança pela organização.
+Ao invés de uma abrupta mudança em larga escala, a escalabilidade gradual propõe a <spam class="text-highlight">implementação da IA em ciclos estratégicos.</spam> Cada ciclo se concentra em áreas específicas da organização, permitindo um aprofundamento meticuloso das necessidades e desafios de cada setor. A escalabilidade gradual funciona como um ciclo virtuoso de aprendizado. Cada implementação em um novo ciclo oferece valiosos insights que aprimoram a solução de IA como um todo. Essa aprendizagem contínua garante que a solução se torne cada vez mais robusta e eficaz à medida que avança pela organização.
 
 ## Insights Diferenciadores
 - **Flexibilidade na Implementação**: A escalabilidade deve ser conduzida de forma flexível e adaptável, permitindo ajustes rápidos com base no feedback e no desempenho observado.
-- **Alinhamento Estratégico**: Garantir que a expansão da solução de IA esteja alinhada com os objetivos estratégicos da empresa, maximizando o impacto positivo e o retorno sobre o investimento.
+- **Alinhamento Estratégico**: Garantir que a expansão da solução de IA esteja alinhada com os objetivos estratégicos da organização, maximizando o impacto positivo e o retorno sobre o investimento.
 - **Foco na Experiência do Usuário**: Continuar a melhorar a interface e a usabilidade da solução, garantindo uma alta taxa de adoção e satisfação entre os colaboradores.
 - **Cultura de Inovação**: Fomentar uma cultura de inovação contínua, onde a solução de IA seja constantemente refinada e melhorada com base nos insights dos usuários e nas tendências do mercado.
 

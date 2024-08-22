@@ -1,12 +1,15 @@
 ---
 sidebar_position: 2
 ---
+import LigaHighlight from '@site/src/components/gsap/highlight'
+
 # Prova de conceito (POC)
+<LigaHighlight />
 ![Fluxo adoção da IA - Implementar](./ciclo/ciclo-implementar-poc.svg)
 
-A implementação de novas ideias na organização deve ser feita com cuidado e estratégia. Mesmo com um planejamento detalhado e medidas de mitigação, estamos lidando com iniciativas inéditas, cujo impacto real pode ser difícil de prever. Cada organização é única, e uma solução bem-sucedida em uma empresa pode não ter o mesmo resultado em outra.
+A implementação de novas ideias na organização deve ser feita com cuidado e estratégia. Mesmo com um planejamento detalhado e medidas de mitigação, <spam class="text-highlight">estamos lidando com iniciativas inéditas, cujo impacto real pode ser difícil de prever.</spam> Cada organização é única, e uma solução bem-sucedida em uma empresa pode não ter o mesmo resultado em outra.
 
-Por isso, é importante adotar uma abordagem estratégica e cuidadosa ao implementar projetos de IA. Isso, porém, não significa que o processo deva ser demorado. Na verdade, a experimentação rápida é fundamental: é necessário testar rapidamente as ideias, descartar as que não funcionam e escalar rapidamente as que demonstram valor.
+Por isso, é importante adotar uma abordagem estratégica e cuidadosa ao implementar projetos de IA. Isso, porém, não significa que o processo deva ser demorado. Na verdade, a experimentação rápida é fundamental: é necessário <spam class="text-highlight">testar rapidamente as ideias, descartar as que não funcionam e escalar rapidamente as que demonstram valor.</spam>
 
 Para alcançar isso, recomendo que a implementação comece com uma Prova de Conceito (POC). A POC valida a viabilidade das ideias em pequena escala, permitindo analisar seu impacto e eficácia antes de um comprometimento mais amplo. Essa etapa é essencial para assegurar que os projetos de IA entreguem os benefícios esperados, antes de realizar investimentos significativos na implementação completa.
 
@@ -37,6 +40,6 @@ Para realizar uma POC eficaz, siga estas etapas:
 5. **Avalie os Resultados**: Compare os resultados da POC com os objetivos e métricas de sucesso definidos. Analise os dados para determinar se a POC foi bem-sucedida e identifique áreas para melhorias.
 
 ### Como continuar
-A realização de uma Prova de Conceito (POC) é um passo essencial para o sucesso de projetos de IA. Ela não apenas comprova a viabilidade técnica e o valor potencial, mas também identifica riscos, facilita a tomada de decisões e engaja os colaboradores. Ao integrar a POC à sua estratégia de implementação de IA, sua organização pode minimizar riscos e maximizar benefícios, assegurando que os projetos escolhidos realmente gerem valor e impacto positivo.
+A realização de uma Prova de Conceito (POC) é um <spam class="text-highlight-end">passo essencial para o sucesso de projetos de IA.</spam> Ela não apenas comprova a viabilidade técnica e o valor potencial, mas também identifica riscos, facilita a tomada de decisões e engaja os colaboradores. Ao integrar a POC à sua estratégia de implementação de IA, sua organização pode minimizar riscos e maximizar benefícios, assegurando que os projetos escolhidos realmente gerem valor e impacto positivo.
 
-Quando a POC é bem-sucedida, o ganho é duplo: ela aumenta a confiança na alocação dos recursos necessários e oferece uma experiência valiosa que torna o desenvolvimento mais assertivo. No entanto, se a POC não atingir os resultados esperados, há a oportunidade de reavaliar ou até mesmo abandonar o projeto antes de comprometer investimentos mais significativos, garantindo uma gestão mais prudente dos recursos da organização.
+<spam class="text-highlight-end">Quando a POC é bem-sucedida, o ganho é duplo:</spam> ela aumenta a confiança na alocação dos recursos necessários e oferece uma experiência valiosa que torna o desenvolvimento mais assertivo. No entanto, se a POC não atingir os resultados esperados, há a oportunidade de reavaliar ou até mesmo abandonar o projeto antes de comprometer investimentos mais significativos, garantindo uma gestão mais prudente dos recursos da organização.
