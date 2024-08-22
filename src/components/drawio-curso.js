@@ -39,6 +39,7 @@ function SvgLoader( ) {
   const [svgContent, setSvgContent] = useState(null);
 
   const svgPath = useBaseUrl('/img/diagrama_curso.svg');
+  const svgPathTeste = useBaseUrl('/img/diagrama-curso.svg');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -60,6 +61,7 @@ function SvgLoader( ) {
       {svgContent && (
         <div dangerouslySetInnerHTML={{ __html: svgContent }} />
       )}
+      <img src="./img/diagrama-curso.svg"></img>
     </div>
   );
   

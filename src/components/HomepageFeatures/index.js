@@ -64,10 +64,10 @@ export default function HomepageFeatures() {
             </p>
         </div>
         <center>
-        <div className="row" style={divStyle}>
-            <br />
-        </div>
-        <DrawioCurso />
+          <div className="row" style={divStyle}>
+              <br />
+          </div>
+          <DrawioCurso />
         </center>
       </div>
     </section>
