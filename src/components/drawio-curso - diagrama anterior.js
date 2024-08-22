@@ -22,8 +22,7 @@ function UpdateSVG(svgString) {
   const parser = new DOMParser();
   const svgDocument = parser.parseFromString(svgString, "image/svg+xml");
 
-/*  RETIREI PORQUE NAO COLOQUEI MARCAS DENTRO DO NOVO SVG
-    itensDoCurso.forEach(function(item) {
+  itensDoCurso.forEach(function(item) {
     if (item[1] == false) { //Se ainda não foi concluído retira a marca
       const primeiro = svgDocument.querySelector('[data-section="'+item[0]+'"]');
       const alterarBoxFundo = primeiro.firstChild;
@@ -32,14 +31,15 @@ function UpdateSVG(svgString) {
       alterar.setAttribute('opacity', '0');
       //console.log(alterar.getAttribute('opacity'));
     }
-  }); */
+  });
   return(svgDocument.documentElement.outerHTML);
 }
 
 function SvgLoader( ) {
   const [svgContent, setSvgContent] = useState(null);
 
-  const svgPath = useBaseUrl('/img/diagrama-curso.svg');
+  const svgPath = useBaseUrl('/img/diagrama_curso.svg');
+  const svgPathTeste = useBaseUrl('/img/diagrama-curso.svg');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -61,6 +61,7 @@ function SvgLoader( ) {
       {svgContent && (
         <div dangerouslySetInnerHTML={{ __html: svgContent }} />
       )}
+      <img src="./img/diagrama-curso.svg"></img>
     </div>
   );
   
