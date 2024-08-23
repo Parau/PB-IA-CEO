@@ -57,7 +57,7 @@ export default function HomepageFeatures() {
         {/* Adicionando o novo recurso "Alo mundo" diretamente */}
         <div className="row" >
             <p>Olá! Sou Parahuari Branco, especialista em tecnologia e educação. 
-            Quero dar boas-vindas ao <b>IA Estratégica:</b> <i>guia essencial para CEOs e Líderes</i>. 
+            Quero dar boas-vindas ao <b>IA Estratégica: <i>guia essencial para CEOs e Líderes</i></b>. 
             Meu objetivo com este guia é desmistificar a Inteligência Artificial, de forma objetiva, acessível e abrangente, 
             demonstrando como ela pode se tornar uma peça fundamental na estratégia da sua organização.</p>
             <p>Explore todo o conteúdo do guia <b><a href="docs/intro">navegando de forma sequencial clicando aqui</a></b> ou utilizando o diagrama com os principais tópicos, apresentado a seguir.
