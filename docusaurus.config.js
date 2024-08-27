@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+const isLocal = process.env.NODE_ENV === 'development';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -35,13 +36,15 @@ const config = {
   },
 
   plugins: [
-    [
-      "docusaurus-plugin-dotenv",
-      {
-        path: "./.env.local",
-        systemvars: true,
-      },
-    ],
+      ...(isLocal ? [
+      [
+        "docusaurus-plugin-dotenv",
+        {
+          path: "./.env.local",
+          systemvars: true,
+        },
+      ],
+   ] : []),
   ],
 
   presets: [
