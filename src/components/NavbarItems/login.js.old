@@ -1,0 +1,28 @@
+import React, { useState } from "react";
+import { auth } from "@site/src/components/Navbaritems/firebaseConfig";
+import Authentication from "@site/src/components/Navbaritems/Authentication";
+
+const Login = () => {
+
+  const [user, setUser] = useState(null);
+
+  // Observar alterações no estado de autenticação
+  auth.onAuthStateChanged((user) => {
+    setUser(user);
+  });
+
+  return (
+    <div>
+      {/* ... */}
+      {user ? (
+        <div>
+          <p>Bem-vindo, {user.email}</p>
+          <button onClick={handleLogout}>Logout</button>
+        </div>
+      ) : (
+        <Authentication />
+      )}
+    </div>
+  );
+};
+export default Login;

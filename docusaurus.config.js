@@ -34,6 +34,16 @@ const config = {
     locales: ['pt'],
   },
 
+  plugins: [
+    [
+      "docusaurus-plugin-dotenv",
+      {
+        path: "./.env.local",
+        systemvars: true,
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -46,13 +56,13 @@ const config = {
           //editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
+        /*blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        },*/
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -78,7 +88,13 @@ const config = {
             position: 'left',
             label: 'Conteúdo',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          /*{to: '/blog', label: 'Blog', position: 'left'}, */
+          {
+            type: 'custom-Login', 
+            position: "right",
+            itemProp: 44,
+            anotherProp: "xyz"
+        },        
           //{
           //  href: 'https://github.com/facebook/docusaurus',
           //  label: 'GitHub',
@@ -88,16 +104,17 @@ const config = {
       },
       footer: {
         style: 'dark',
+        /*
         links: [
-          {
+          { 
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Guia',
                 to: '/docs/intro',
               },
             ],
-          },
+          }, 
           {
             title: 'Community',
             items: [
@@ -124,7 +141,7 @@ const config = {
               },
             ],
           },
-        ],
+        ], */
         copyright: `Copyright © ${new Date().getFullYear()} CRIATIVIDADE.digital, Editora eTrix.`,
       },
       prism: {

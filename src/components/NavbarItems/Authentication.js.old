@@ -1,0 +1,60 @@
+// Authentication.js
+import React, { useEffect, useRef } from 'react';
+import { auth } from "@site/src/components/Navbaritems/firebaseConfig";
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebaseui/dist/firebaseui.css';
+import * as firebaseui from 'firebaseui'; 
+
+
+function Authentication() {
+  const firebaseUiContainer = useRef(null);
+
+  useEffect(() => {
+    // Inicialize o Firebase com suas credenciais
+    const firebaseConfig = {
+      apiKey: "AIzaSyBZw0wJoOW5WDP-vuIQSMs00iadyVRWmPc",
+      authDomain: "login-5b2fc.firebaseapp.com",
+      projectId: "login-5b2fc",
+      storageBucket: "your-project-id.appspot.com",
+      messagingSenderId: "your-project-id.appspot.com",
+      appId: "1067842633850",
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    const ui = new firebaseui.auth.AuthUI(firebase.auth());
+    ui.start('#firebaseui-auth-container', {
+      callbacks: {
+          signInSuccessWithAuthResult: function(authResult, redirectUrl) {
+              // Action if the user is authenticated successfully
+          },
+          uiShown: function() {
+              // This is what should happen when the form is full loaded. In this example, I hide the loader element.
+              document.getElementById('loader').style.display = 'none';
+          }
+      },
+      signInSuccessUrl: 'https://www.anyurl.com', // This is where should redirect if the sign in is successful.
+      signInOptions: [ // This array contains all the ways an user can authenticate in your application. For this example, is only by email.
+          {
+              provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+              requireDisplayName: true,
+              disableSignUp: {
+                  status: true
+              }
+          }
+      ],
+      tosUrl: 'https://www.example.com/terms-conditions', // URL to you terms and conditions.
+      privacyPolicyUrl: function() { // URL to your privacy policy
+          window.location.assign('https://www.example.com/privacy-policy');
+      }
+  });
+}, []);
+
+  return (
+    <div>
+      <div ref={firebaseUiContainer} />
+    </div>
+  );
+}
+
+export default Authentication;
