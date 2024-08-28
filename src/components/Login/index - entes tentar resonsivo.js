@@ -65,9 +65,6 @@ export function Login() {
             /*Não existe o usuário*/
             message = 'Não foi encontrada uma licença de acesso ao guia associada a este e-mail.'; //tentei imprimir o email mas na documentação fala que por questões de segurança neste caso o e-mail utilizado não é informado.
             break;
-          case 'auth/popup-closed-by-user':
-            message = 'O janela de login foi fechada. Por favor, tente novamente e conclua o login.';
-            break;
           case 'auth/account-exists-with-different-credential':
             if (p==="Microsoft") {  //Problema do provedor microsoft no primeiro login - vamos tentar fazer o relink
               console.log('tentando relink do email para microsoft: '+ error.email);
@@ -101,19 +98,125 @@ export function Login() {
   };
 
   return (
-    <div className="container">
-    <div className="loginContainer">
-      <h2 className="title">Escolha a forma de login que você usou ao liberar o acesso ao guia:</h2>
-      <button onClick={() => handleSignIn('Google')} className={`button googleButton`}>
-        <FcGoogle className="googleIcon" /> Login com Google
-      </button>
-      <button onClick={() => handleSignIn('Microsoft')} className={`button microsoftButton`}>
-        <FaMicrosoft className="microsoftIcon" /> Login com Microsoft
-      </button>
-      {errorMessage && <p className="errorMessage">{errorMessage}</p>}
+    <div>
+      <div style={styles.container}>
+        <div style={styles.loginContainer}>
+          <h2 style={styles.title}>Escolha a forma de login que você usou ao liberar o acesso ao guia:</h2>
+          <button onClick={() => handleSignIn('Google')} style={{ ...styles.button, ...styles.googleButton }}>
+          <FcGoogle style={styles.googleIcon} /> Login com Google
+          </button>
+          <button onClick={() => handleSignIn('Microsoft')} style={{ ...styles.button, ...styles.microsoftButton }}>
+          <FaMicrosoft style={styles.microsoftIcon} /> Login com Microsoft
+          </button>
+          {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+        </div>
+      </div>
     </div>
-  </div>
   );
 }
 
+const styles = {
+  container: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+    backgroundColor: '#f4f4f9',
+    margin: 0,
+  },
+  loginContainer: {
+    textAlign: 'center',
+    backgroundColor: 'white',
+    padding: '30px',
+    borderRadius: '10px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+  },
+  title: {
+    marginBottom: '20px',
+    fontSize: '20px',
+    fontFamily: 'Arial, sans-serif',
+  },
+  button: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '250px',
+    margin: '10px auto',
+    padding: '10px',
+    fontSize: '16px',
+    borderRadius: '5px',
+    border: 'none',
+    cursor: 'pointer',
+    fontFamily: 'Arial, sans-serif',
+  },
+  microsoftIcon: {
+    marginRight: '10px',
+    fontSize: '25px',
+  },
+  googleButton: {
+    backgroundColor: '#4285f4',
+    color: 'white',
+  },
+  microsoftButton: {
+    backgroundColor: '#0078d4',
+    color: 'white',
+  },
+  googleIcon: {
+    backgroundColor: 'white',
+    borderRadius: '50%',
+    padding: '2px', // Ajuste o padding conforme necessário
+    marginRight: '10px',
+    fontSize: '27px',
+  },
+};
 
+/*
+
+const microsoftProvider = new OAuthProvider('microsoft.com');
+
+const uiConfig = {
+  signInFlow: 'popup',
+  signInOptions: [
+    //microsoftProvider.providerId,
+    firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+
+  ],
+  callbacks: {
+    // Handle successful sign-in
+    signInSuccessWithAuthResult: (redirectUrl) => {
+      alert("success:", redirectUrl);
+      return true; // Don't redirect automatically
+    },
+    // Handle sign-in failure
+    signInFailure: async (error) => {
+      alert('teste');
+      if (error.code === 'auth/email-already-in-use') {
+        alert('This email is already in use, please sign in instead.');
+        return Promise.resolve();
+      } else if (error.code === 'auth/user-not-found') { // Prevent new users from signing up
+        alert('User not found. Please contact support.');
+        return Promise.resolve(); // Don't proceed with sign-up
+      }
+      else if (error.code === 'auth/admin-restricted-operation') {
+        // Intercept the error and display a custom message
+        alert('This operation is restricted to administrators only. Please contact your administrator.');
+        return Promise.resolve(); // Don't proceed with sign-in
+      }
+      // Handle other errors
+      return Promise.reject(error);
+    }
+  }
+};
+
+export function Login() {
+
+  return (
+    <div className="auth-wrapper">
+      <center>Use a sua credencial do Google para ter acesso ao conteúdo do guia.
+      </center>
+      <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={auth} />
+    </div>
+  );
+}
+
+*/
