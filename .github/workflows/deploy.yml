@@ -33,6 +33,9 @@ jobs:
           APP_ID: ${{ secrets.APP_ID }}
         run: yarn build
 
+      - name: Print all environment variables
+        run: env
+
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
