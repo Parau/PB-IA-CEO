@@ -36,7 +36,6 @@ const config = {
   },
 
   plugins: [
-      ...(isLocal ? [
       [
         "docusaurus-plugin-dotenv",
         {
@@ -44,9 +43,7 @@ const config = {
           systemvars: true,
         },
       ],
-   ] : []),
-  ],
-
+    ],
   presets: [
     [
       'classic',
