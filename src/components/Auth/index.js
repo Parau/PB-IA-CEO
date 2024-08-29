@@ -50,8 +50,8 @@ export function AuthCheck({ children }) {
   } else {
     if (from === LOGOUT_PATH) return <Redirect to={BASE} from={from} />;
     else if (PROTECTED_PATHS.filter((x) => from.includes(x)).length)
-      return <Login />;
-    else if (from === LOGIN_PATH) return <Login />;
+      return <Redirect to={baseURL+'login?p='+from} />
+    //else if (from === LOGIN_PATH) return <Redirect to={baseURL+'p='+from} />;
     return children;
   }
 }

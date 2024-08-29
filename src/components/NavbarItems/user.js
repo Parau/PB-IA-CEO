@@ -5,7 +5,7 @@ import { onAuthStateChanged } from "firebase/auth";
 
 /*import { fab } from '@fortawesome/free-brands-svg-icons'; // Import all brands icons.
 import { fas } from '@fortawesome/free-solid-svg-icons'; // Import all solid icons.*/
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaSignOutAlt } from 'react-icons/fa';
 
 import { useThemeConfig } from "@docusaurus/theme-common";
 
@@ -38,12 +38,21 @@ const User = () => {
     history.push(LOGIN_PATH);
   };
 
+  const iconStyle = {
+    verticalAlign: 'middle', // Aligns the icon vertically in the middle
+    marginLeft: '0.5rem' // Optional: Adds spacing between text and icon
+  };
+  const linkStyle = {
+    textDecoration: 'none', // Removes the default underline
+    cursor: 'pointer', // Changes the cursor to a hand
+  };
+
   return (
     <div>
       {/* ... */}
       {user ? (
         <div>
-          {user.email}<a onClick={handleLogout}> <FontAwesomeIcon icon="fa-sign-out-alt" size="1x" />&nbsp;</a>
+          {user.email}<a onClick={handleLogout} style={linkStyle}> <FaSignOutAlt  style={iconStyle} />&nbsp;</a>
         </div>
       ) : (
         <spam></spam>
