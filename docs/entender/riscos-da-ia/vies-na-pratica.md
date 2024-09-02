@@ -4,6 +4,7 @@ sidebar_position: 2
 import ReactPlayer from 'react-player'
 import LigaHighlight from '@site/src/components/gsap/highlight'
 import ResponsiveIframe from 'react-responsive-embed';
+import SorveteriaObservable from '@site/src/components/observable/SorveteriaObservable'
 
 # Dados e viés
 <LigaHighlight />
@@ -23,20 +24,14 @@ No vídeo, utilizei a experimentação para encontrar a posição ideal da linha
 Embora a experimentação seja uma prática comum entre os desenvolvedores de IA, existem técnicas específicas para calcular a posição mais precisa da linha de regressão. Para facilitar sua interação com o modelo, criei uma ferramenta que realiza esse cálculo automaticamente. Utilizei o método dos mínimos quadrados, uma técnica estatística para determinar a linha de regressão. No diagrama abaixo, a linha pontilhada laranja ilustra essa regressão.
 
 
-<ResponsiveIframe style={{overflow: 'hidden'}}
-    src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b@1392?cells=GraficoComLinhaCalculada"
-    ratio='4:3'/>
+![Grafico com linha metodo minimos quadrados](./GraficoComLinhaCalculadaComparacao.svg)
 
-<br />
 O objetivo aqui não é detalhar o processo matemático, mas permitir que você interaja com o modelo e observe como o viés pode influenciar os resultados. O gráfico acima utiliza os mesmos dados apresentados no vídeo. Por exemplo, para um dia com temperatura máxima de 33°C, o modelo estima a venda de cerca de 204 sorvetes.
 
 Observando o gráfico, note que, de acordo com os dados históricos da sorveteria da Sofia, em um <spam class="text-highlight">dia com 32°C foram vendidos 180 sorvetes</spam>. Agora, imagine um cenário excepcional, como uma promoção de 80% de desconto ou uma notícia viral sobre a longevidade associada ao consumo de sorvetes artesanais de limão 😱. Ou mesmo um erro na coleta de dados. Suponha que, em um <spam class="text-highlight">dia de 32°C, fossem vendidos 350 sorvetes</spam> em vez dos 180 registrados. Como isso afetaria o nosso modelo?"
 
 <spam class="text-highlight">Experimente ajustar o controle abaixo</spam> e veja como isso altera o treinamento do modelo.
-<ResponsiveIframe  style={{overflow: 'hidden'}}
-    src="https://observablehq.com/embed/5a4e3b0d0f0c7b0b@1396?cells=viewof+temperatura32%2CGrafico"
-    ratio='12:10'/>
-
+<SorveteriaObservable />
 <br />
 <spam class="text-highlight">Percebeu como um dado excepcional pode impactar o modelo?</spam> Seja um evento especial de vendas ou um erro na coleta de dados. Um valor discrepante (*outlier*) influencia o desempenho do modelo. Se a exceção for muito maior que a realidade, o modelo tenderá a um viés otimista nas vendas.
 
