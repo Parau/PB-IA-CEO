@@ -5,7 +5,15 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-const isLocal = process.env.NODE_ENV === 'development';
+
+function jsDateToExcelDate(jsDate) {
+  const excelEpoch = new Date(1899, 11, 31);
+  
+  // Calculate the difference in days
+  let excelDate = Math.floor((jsDate - excelEpoch) / (24 * 60 * 60 * 1000));
+
+  return excelDate;
+}
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -24,6 +32,11 @@ const config = {
   organizationName: 'criatividade-digital', // Usually your GitHub org/user name.
   projectName: 'PB-IA-CEO', // Usually your repo name.
 
+  customFields: {
+    lastBuild: jsDateToExcelDate(new Date()), // Armazena o número Excel da data atual
+    bookCode: 'CEO',
+  },
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -36,14 +49,14 @@ const config = {
   },
 
   plugins: [
-      [
-        "docusaurus-plugin-dotenv",
-        {
-          path: "./.env.local",
-          systemvars: true,
-        },
-      ],
+    [
+      "docusaurus-plugin-dotenv",
+      {
+        path: "./.env.local",
+        systemvars: true,
+      },
     ],
+  ],
   presets: [
     [
       'classic',
@@ -146,7 +159,7 @@ const config = {
             ],
           },
         ], */
-        copyright: `Copyright © ${new Date().getFullYear()} CRIATIVIDADE.digital, Editora eTrix.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CRIATIVIDADE.digital, Editora eTrix.<br /> <small>Build: ${new Date()}</small>`,
       },
       prism: {
         theme: prismThemes.github,

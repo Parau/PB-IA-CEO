@@ -47,6 +47,34 @@
   color: white;
 }
 
+.emailButton {
+  background-color: #9f2a2a;
+  color: white;
+}
+
+.codeButton {
+  background-color: #db7c29;
+  color: white;
+}
+
+.emailInput {
+  width: 100%;                    /* Ajusta a largura ao contêiner */
+  max-width: 400px;               /* Limita a largura */
+  padding: 10px 12px;             /* Padding interno para toque e conforto visual */
+  font-size: 16px;                /* Tamanho da fonte */
+  border: 1px solid #ccc;         /* Borda leve para indicar o campo */
+  border-radius: 4px;             /* Borda arredondada */
+  outline: none;                  /* Remove o contorno padrão */
+  transition: border-color 0.3s;  /* Transição para a mudança de cor da borda */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.emailInput:focus {
+  border-color: #0078d4;          /* Cor da borda ao focar */
+  box-shadow: 0 0 5px rgba(0, 120, 212, 0.2); /* Efeito de sombra leve */
+}
+
+
 /* Google icon specific styles */
 .googleIcon {
   background-color: white;
@@ -58,6 +86,12 @@
 
 /* Microsoft icon specific styles */
 .microsoftIcon {
+  margin-right: 10px;
+  font-size: 28px; /* Increased font size */
+}
+
+/* email icon specific styles */
+.emailIcon {
   margin-right: 10px;
   font-size: 28px; /* Increased font size */
 }

@@ -40,15 +40,13 @@ export function AuthCheck({ children }) {
 
   if (user?.email) {
     if (from === LOGOUT_PATH) {
-      signOut(auth);
-      console.log("LOGOUT->", user.email);
-
+      //await signOut(auth);
+      //console.log("LOGOUT->", user.email);
       return <Redirect to={baseURL} from={LOGOUT_PATH} />;
     } else if (from === LOGIN_PATH) return <Redirect to={BASE} from={from} />;
-
     return children;
   } else {
-    if (from === LOGOUT_PATH) return <Redirect to={BASE} from={from} />;
+    if (from === LOGOUT_PATH) return <Redirect to={baseURL} from={LOGOUT_PATH} />;
     else if (PROTECTED_PATHS.filter((x) => from.includes(x)).length)
       return <Redirect to={baseURL+'login?p='+from} />
     //else if (from === LOGIN_PATH) return <Redirect to={baseURL+'p='+from} />;
